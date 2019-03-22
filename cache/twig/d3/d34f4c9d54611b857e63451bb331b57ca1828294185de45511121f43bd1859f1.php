@@ -56,11 +56,9 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
             // line 13
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "subtitle", []);
             echo "</h2>
+            
             ";
-            // line 14
-            $this->loadTemplate("partials/blog/date.html.twig", "item.html.twig", 14)->display($context);
             // line 15
-            echo "            ";
             $this->loadTemplate("partials/blog/taxonomy.html.twig", "item.html.twig", 15)->display($context);
             // line 16
             echo "        ";
@@ -97,7 +95,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
         echo "
         ";
         // line 30
-        $this->loadTemplate("item.html.twig", "item.html.twig", 30, "1390682515")->display($context);
+        $this->loadTemplate("item.html.twig", "item.html.twig", 30, "2103431291")->display($context);
         // line 38
         echo "
     </section>
@@ -117,7 +115,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
 
     public function getDebugInfo()
     {
-        return array (  102 => 38,  100 => 30,  97 => 29,  94 => 28,  91 => 27,  89 => 26,  84 => 24,  81 => 23,  78 => 22,  72 => 18,  69 => 17,  66 => 16,  63 => 15,  61 => 14,  57 => 13,  52 => 12,  49 => 11,  46 => 10,  43 => 9,  40 => 8,  36 => 1,  34 => 6,  32 => 5,  30 => 4,  28 => 3,  26 => 2,  11 => 1,);
+        return array (  100 => 38,  98 => 30,  95 => 29,  92 => 28,  89 => 27,  87 => 26,  82 => 24,  79 => 23,  76 => 22,  70 => 18,  67 => 17,  64 => 16,  62 => 15,  57 => 13,  52 => 12,  49 => 11,  46 => 10,  43 => 9,  40 => 8,  36 => 1,  34 => 6,  32 => 5,  30 => 4,  28 => 3,  26 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -143,7 +141,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
         {% set content %}
             <h1>{{ page.title }}</h1>
             <h2>{{ page.header.subtitle }}</h2>
-            {% include 'partials/blog/date.html.twig' %}
+            
             {% include 'partials/blog/taxonomy.html.twig' %}
         {% endset %}
         {% include 'partials/hero.html.twig' with {id: 'blog-hero'} %}
@@ -177,7 +175,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
 
 
 /* item.html.twig */
-class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb49357d_1390682515 extends Twig_Template
+class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb49357d_2103431291 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -233,7 +231,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
 
     public function getDebugInfo()
     {
-        return array (  221 => 36,  218 => 35,  215 => 34,  211 => 33,  208 => 32,  205 => 31,  187 => 30,  102 => 38,  100 => 30,  97 => 29,  94 => 28,  91 => 27,  89 => 26,  84 => 24,  81 => 23,  78 => 22,  72 => 18,  69 => 17,  66 => 16,  63 => 15,  61 => 14,  57 => 13,  52 => 12,  49 => 11,  46 => 10,  43 => 9,  40 => 8,  36 => 1,  34 => 6,  32 => 5,  30 => 4,  28 => 3,  26 => 2,  11 => 1,);
+        return array (  219 => 36,  216 => 35,  213 => 34,  209 => 33,  206 => 32,  203 => 31,  185 => 30,  100 => 38,  98 => 30,  95 => 29,  92 => 28,  89 => 27,  87 => 26,  82 => 24,  79 => 23,  76 => 22,  70 => 18,  67 => 17,  64 => 16,  62 => 15,  57 => 13,  52 => 12,  49 => 11,  46 => 10,  43 => 9,  40 => 8,  36 => 1,  34 => 6,  32 => 5,  30 => 4,  28 => 3,  26 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -259,7 +257,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
         {% set content %}
             <h1>{{ page.title }}</h1>
             <h2>{{ page.header.subtitle }}</h2>
-            {% include 'partials/blog/date.html.twig' %}
+            
             {% include 'partials/blog/taxonomy.html.twig' %}
         {% endset %}
         {% include 'partials/hero.html.twig' with {id: 'blog-hero'} %}
