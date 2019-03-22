@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1553291799,
-    'checksum' => 'dc27452241abc5e0ef1e8ee95289e087',
+    'timestamp' => 1553293428,
+    'checksum' => 'cf020e8e43f6cbc36c9df6030f266514',
     'files' => [
         'user/config' => [
             'plugins/simplesearch' => [
@@ -83,7 +83,7 @@ return [
             ],
             'plugins/random' => [
                 'file' => 'user/plugins/random/random.yaml',
-                'modified' => 1553291746
+                'modified' => 1553293382
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -210,7 +210,7 @@ return [
                 'enable_json_feed' => false
             ],
             'random' => [
-                'enabled' => true,
+                'enabled' => false,
                 'route' => '/random',
                 'redirect' => true,
                 'filters' => [

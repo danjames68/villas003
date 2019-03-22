@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/plugins/random/random.yaml',
-    'modified' => 1553291746,
+    'modified' => 1553293382,
     'data' => [
-        'enabled' => true,
+        'enabled' => false,
         'route' => '/random',
         'redirect' => true,
         'filters' => [

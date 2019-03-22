@@ -16,17 +16,18 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        echo "<div class=\"card\">
+        echo "
+<div class=\"card\">
     ";
-        // line 2
-        $context["image"] = twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), "images", []));
         // line 3
+        $context["image"] = twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), "images", []));
+        // line 4
         echo "    ";
         if (($context["image"] ?? null)) {
-            // line 4
+            // line 5
             echo "    <div class=\"card-image\">
         <a href=\"";
-            // line 5
+            // line 6
             echo $this->getAttribute(($context["page"] ?? null), "url", []);
             echo "\">";
             echo $this->getAttribute($this->getAttribute(($context["image"] ?? null), "cropZoom", [0 => 800, 1 => 400], "method"), "html", []);
@@ -34,44 +35,44 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
     </div>
     ";
         }
-        // line 8
+        // line 9
         echo "    <div class=\"card-header\">
         <div class=\"card-subtitle text-gray\">
             ";
-        // line 10
-        $this->loadTemplate("partials/villa/date.html.twig", "partials/villa-list-item.html.twig", 10)->display($context);
         // line 11
+        $this->loadTemplate("partials/villa/date.html.twig", "partials/villa-list-item.html.twig", 11)->display($context);
+        // line 12
         echo "    </div>
         <div class=\"card-title\">
         ";
-        // line 13
-        $this->loadTemplate("partials/villa/title.html.twig", "partials/villa-list-item.html.twig", 13)->display(array_merge($context, ["title_level" => "h5"]));
         // line 14
+        $this->loadTemplate("partials/villa/title.html.twig", "partials/villa-list-item.html.twig", 14)->display(array_merge($context, ["title_level" => "h5"]));
+        // line 15
         echo "        </div>
     </div>
     <div class=\"card-body\">
         ";
-        // line 17
+        // line 18
         if (($this->getAttribute(($context["page"] ?? null), "summary", []) != $this->getAttribute(($context["page"] ?? null), "content", []))) {
-            // line 18
+            // line 19
             echo "            ";
             echo $this->getAttribute(($context["page"] ?? null), "summary", []);
             echo "
         ";
         } else {
-            // line 20
+            // line 21
             echo "            ";
             echo $this->getAttribute(($context["page"] ?? null), "content", []);
             echo "
         ";
         }
-        // line 22
+        // line 23
         echo "    </div>
     <div class=\"card-footer\">
         ";
-        // line 24
-        $this->loadTemplate("partials/villa/taxonomy.html.twig", "partials/villa-list-item.html.twig", 24)->display($context);
         // line 25
+        $this->loadTemplate("partials/villa/taxonomy.html.twig", "partials/villa-list-item.html.twig", 25)->display($context);
+        // line 26
         echo "    </div>
 </div>
 
@@ -90,7 +91,7 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
 
     public function getDebugInfo()
     {
-        return array (  75 => 25,  73 => 24,  69 => 22,  63 => 20,  57 => 18,  55 => 17,  50 => 14,  48 => 13,  44 => 11,  42 => 10,  38 => 8,  30 => 5,  27 => 4,  24 => 3,  22 => 2,  19 => 1,);
+        return array (  76 => 26,  74 => 25,  70 => 23,  64 => 21,  58 => 19,  56 => 18,  51 => 15,  49 => 14,  45 => 12,  43 => 11,  39 => 9,  31 => 6,  28 => 5,  25 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -103,7 +104,8 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div class=\"card\">
+        return new Twig_Source("
+<div class=\"card\">
     {% set image = page.media.images|first %}
     {% if image %}
     <div class=\"card-image\">
