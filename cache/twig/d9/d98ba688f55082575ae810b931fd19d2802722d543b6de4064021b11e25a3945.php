@@ -167,6 +167,6 @@ $context["paginate"], "isDeltaBorder", [])) {
 </ul>
 
 {% endif %}
-", "partials/pagination.html.twig", "/Users/minidino/Sites/blog-site/user/plugins/pagination/templates/partials/pagination.html.twig");
+", "partials/pagination.html.twig", "/Users/minidino/Sites/villa-site/user/plugins/pagination/templates/partials/pagination.html.twig");
     }
 }

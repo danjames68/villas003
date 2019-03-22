@@ -2,7 +2,7 @@ form:
   fields:
     tabs:
       fields:
-        blog:
+        villa:
           type: tab
 
           fields:

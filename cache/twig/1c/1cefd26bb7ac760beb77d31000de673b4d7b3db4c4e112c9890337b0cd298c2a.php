@@ -1,6 +1,6 @@
 <?php
 
-/* partials/blog/taxonomy.html.twig */
+/* partials/villa/taxonomy.html.twig */
 class __TwigTemplate_6fc8cc784af5b1c06d9047daf1cfe0219a7dbf095783bc14bb10efbcfca0ed4d extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -28,7 +28,7 @@ class __TwigTemplate_6fc8cc784af5b1c06d9047daf1cfe0219a7dbf095783bc14bb10efbcfca
                 echo "    <a class=\"label label-rounded ";
                 echo ((($context["label_style"] ?? null)) ? (($context["label_style"] ?? null)) : ("label-secondary"));
                 echo " p-category\" href=\"";
-                echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->rtrimFilter($this->getAttribute(($context["blog"] ?? null), "url", []), "/");
+                echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->rtrimFilter($this->getAttribute(($context["villa"] ?? null), "url", []), "/");
                 echo "/tag";
                 echo $this->getAttribute($this->getAttribute(($context["config"] ?? null), "system", []), "param_sep", []);
                 echo $context["tag"];
@@ -48,7 +48,7 @@ class __TwigTemplate_6fc8cc784af5b1c06d9047daf1cfe0219a7dbf095783bc14bb10efbcfca
 
     public function getTemplateName()
     {
-        return "partials/blog/taxonomy.html.twig";
+        return "partials/villa/taxonomy.html.twig";
     }
 
     public function isTraitable()
@@ -74,10 +74,10 @@ class __TwigTemplate_6fc8cc784af5b1c06d9047daf1cfe0219a7dbf095783bc14bb10efbcfca
         return new Twig_Source("{% if page.taxonomy.tag %}
 <span class=\"tags\">
     {% for tag in page.taxonomy.tag %}
-    <a class=\"label label-rounded {{ label_style ?: 'label-secondary' }} p-category\" href=\"{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}#body-wrapper\">{{ tag }}</a>
+    <a class=\"label label-rounded {{ label_style ?: 'label-secondary' }} p-category\" href=\"{{ villa.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}#body-wrapper\">{{ tag }}</a>
     {% endfor %}
 </span>
 {% endif %}
-", "partials/blog/taxonomy.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/blog/taxonomy.html.twig");
+", "partials/villa/taxonomy.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/villa/taxonomy.html.twig");
     }
 }

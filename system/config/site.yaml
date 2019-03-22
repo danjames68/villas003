@@ -21,11 +21,11 @@ redirects:
 #  '/old/(.*)': '/new/$1'                        # Would redirect /old/my-page to /new/my-page
 
 routes:
-#  '/something/else': '/blog/sample-3'         # Alias for /blog/sample-3
-#  '/new/(.*)': '/blog/$1'                     # Regex any /new/my-page URL to /blog/my-page Route
+#  '/something/else': '/villa/sample-3'         # Alias for /villa/sample-3
+#  '/new/(.*)': '/villa/$1'                     # Regex any /new/my-page URL to /villa/my-page Route
 
-blog:
-  route: '/blog'                            # Custom value added (accessible via system.blog.route)
+villa:
+  route: '/villa'                            # Custom value added (accessible via system.villa.route)
 
 #menu:                                      # Sample Menu Example
 #    - text: Source

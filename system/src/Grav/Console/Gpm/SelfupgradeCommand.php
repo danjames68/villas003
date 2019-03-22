@@ -103,7 +103,7 @@ class SelfupgradeCommand extends ConsoleCommand
             $this->output->writeln("<red>ATTENTION:</red>");
             $this->output->writeln("   Grav has increased the minimum PHP requirement.");
             $this->output->writeln("   You are currently running PHP <red>" . phpversion() . "</red>, but PHP <green>" . $this->upgrader->minPHPVersion() . "</green> is required.");
-            $this->output->writeln("   Additional information: <white>http://getgrav.org/blog/changing-php-requirements</white>");
+            $this->output->writeln("   Additional information: <white>http://getgrav.org/villa/changing-php-requirements</white>");
             $this->output->writeln("");
             $this->output->writeln("Selfupgrade aborted.");
             $this->output->writeln("");

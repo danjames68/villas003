@@ -81,6 +81,6 @@ class __TwigTemplate_ed38366929b968beb9e19062c125a36e53996038cbb2ceed97ff172dbb3
     {
         return new Twig_Source("{% for meta in page.metadata %}
     <meta {% if meta.name %}name=\"{{ meta.name }}\" {% endif %}{% if meta.http_equiv %}http-equiv=\"{{ meta.http_equiv }}\" {% endif %}{% if meta.charset %}charset=\"{{ meta.charset }}\" {% endif %}{% if meta.property %}property=\"{{ meta.property }}\" {% endif %}{% if meta.content %}content=\"{{ meta.content }}\" {% endif %}/>
-{% endfor %}", "partials/metadata.html.twig", "/Users/minidino/Sites/blog-site/system/templates/partials/metadata.html.twig");
+{% endfor %}", "partials/metadata.html.twig", "/Users/minidino/Sites/villa-site/system/templates/partials/metadata.html.twig");
     }
 }

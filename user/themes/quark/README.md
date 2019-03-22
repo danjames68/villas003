@@ -18,8 +18,8 @@
 
 * Default view template `default.md`
 * Error view template `error.md`
-* Blog view template `blog.md`
-* Blog item view template `item.md`
+* villa view template `villa.md`
+* villa item view template `item.md`
 * Modular view templates: `modular.md`
   * Features Modular view template `features.md`
   * Hero Modular view template `hero.md`
@@ -29,7 +29,7 @@
 
 Installing the Quark theme can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file. 
 
-The theme by itself is useful, but you may have an easier time getting up and running by installing a skeleton. The Quark theme can be found in both the [One-page](https://github.com/getgrav/grav-skeleton-onepage-site) and [Blog Site](https://github.com/getgrav/grav-skeleton-blog-site) which are self-contained repositories for a complete sites which include: sample content, configuration, theme, and plugins.
+The theme by itself is useful, but you may have an easier time getting up and running by installing a skeleton. The Quark theme can be found in both the [One-page](https://github.com/getgrav/grav-skeleton-onepage-site) and [villa Site](https://github.com/getgrav/grav-skeleton-villa-site) which are self-contained repositories for a complete sites which include: sample content, configuration, theme, and plugins.
 
 ## GPM Installation (Preferred)
 
@@ -60,7 +60,7 @@ header-animated: true         # Allows the fixed header to resize to a smaller h
 header-dark: false            # Inverts the text/logo to work better on dark backgrounds
 header-transparent: false     # Allows the fixed header to be transparent over the page
 sticky-footer: true           # Causes the footer to be sticky at the bottom of the page
-blog-page: '/blog'            # The route to the blog listing page, useful for a blog style layout with sidebar
+villa-page: '/villa'            # The route to the villa listing page, useful for a villa style layout with sidebar
 custom_logo:                  # A custom logo rather than the default (see below)  
 custom_logo_mobile:           # A custom logo to use for mobile navigation
 ```
@@ -94,7 +94,7 @@ On a particular page will ensure that page has those options enabled (assuming t
 
 ## Hero Options
 
-The hero template allows some options to be set in the page frontmatter. This is used by the modular `hero` as well as the blog and item templates to provide a more dynamic header.
+The hero template allows some options to be set in the page frontmatter. This is used by the modular `hero` as well as the villa and item templates to provide a more dynamic header.
 
 ```yaml
 hero_classes: text-light title-h1h2 parallax overlay-dark-gradient hero-large

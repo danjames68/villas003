@@ -32,28 +32,28 @@ You should now have all the plugin files under
 
 # Usage
 
-The feeds work for pages that have sub-pages, for example a blog list view. If your page has a `content`, then the RSS plugin will automatically be enabled. Simply append either `.atom`, `.rss` or `.json` to the url.  For example, if you have a blog page that defines a `content` header to display a list of blog pages in a list, and the URL is `http://www.mysite.com/blog` then the feed would simply be:
+The feeds work for pages that have sub-pages, for example a villa list view. If your page has a `content`, then the RSS plugin will automatically be enabled. Simply append either `.atom`, `.rss` or `.json` to the url.  For example, if you have a villa page that defines a `content` header to display a list of villa pages in a list, and the URL is `http://www.mysite.com/villa` then the feed would simply be:
 
 ```
-http://www.mysite.com/blog.atom
-```
-
-or
-
-```
-http://www.mysite.com/blog.rss
+http://www.mysite.com/villa.atom
 ```
 
 or
 
 ```
-http://www.mysite.com/blog.json
+http://www.mysite.com/villa.rss
+```
+
+or
+
+```
+http://www.mysite.com/villa.json
 ```
 ## Creating Feed Buttons in Your Pages
 
 Just having the plugin loaded and activated is enough to get it working, but you can help users find your feeds by creating buttons in the body of your page users can easily discover and click on to access the feeds.
 
-In our [Blog Skeleton] demo, you will see these buttons located in the sidebar under the heading `Syndicate`. This was done very easily by adding the following information to the `sidebar.html.twig` template file found under `/user/themes/antimatter/templates/partials/`.
+In our [villa Skeleton] demo, you will see these buttons located in the sidebar under the heading `Syndicate`. This was done very easily by adding the following information to the `sidebar.html.twig` template file found under `/user/themes/antimatter/templates/partials/`.
 
 ```
 <a class="button" href="{{ base_url }}.atom"><i class="fa fa-rss-square"></i> Atom 1.0</a>
@@ -72,23 +72,23 @@ lang: en-us
 length: 500
 ```
 
-You can override any of the default values by setting one or more of these in your blog list page where `sub_pages` is defined. For example:
+You can override any of the default values by setting one or more of these in your villa list page where `sub_pages` is defined. For example:
 
 ```
-title: Sample Blog
+title: Sample villa
 content:
     items: @self.children
     limit: 5
     pagination: true
 feed:
     limit: 15
-    description: Sample Blog Description
+    description: Sample villa Description
 ```
 
 You can ensure a particular page is skipped from the feed by adding the following in the frontmatter header:
 
 ```
-title: Sample Blog
+title: Sample villa
 feed:
     skip: true
 ```

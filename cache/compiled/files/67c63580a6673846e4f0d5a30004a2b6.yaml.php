@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/system/config/site.yaml',
-    'modified' => 1549544966,
+    'modified' => 1553291743,
     'data' => [
         'title' => 'Grav',
         'default_lang' => 'en',
@@ -25,8 +25,8 @@ return [
         ],
         'redirects' => NULL,
         'routes' => NULL,
-        'blog' => [
-            'route' => '/blog'
+        'villa' => [
+            'route' => '/villa'
         ]
     ]
 ];

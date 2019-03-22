@@ -173,6 +173,6 @@ class __TwigTemplate_90c66448d524d3bff5717ca11178c8add0bac882a13a7383c7d679cc3a9
     {% endfor %}
 </div>
 {% endif %}
-", "partials/breadcrumbs.html.twig", "/Users/minidino/Sites/blog-site/user/plugins/breadcrumbs/templates/partials/breadcrumbs.html.twig");
+", "partials/breadcrumbs.html.twig", "/Users/minidino/Sites/villa-site/user/plugins/breadcrumbs/templates/partials/breadcrumbs.html.twig");
     }
 }

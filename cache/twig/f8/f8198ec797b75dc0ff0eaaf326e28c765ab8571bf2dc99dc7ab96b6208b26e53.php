@@ -96,6 +96,6 @@ class __TwigTemplate_7725b18922dcbec150061cc5d0f31652101183b22236315f5d9da4ff848
     </li>
 {% endfor %}
 </ul>
-", "partials/archives.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/archives.html.twig");
+", "partials/archives.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/archives.html.twig");
     }
 }

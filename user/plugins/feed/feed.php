@@ -138,7 +138,7 @@ class FeedPlugin extends Plugin
 
         /** @var Data\Blueprint $blueprint */
         $blueprint = $event['blueprint'];
-        if (!$inEvent && $blueprint->name == 'blog_list') {
+        if (!$inEvent && $blueprint->name == 'villa_list') {
             $inEvent = true;
             $blueprints = new Data\Blueprints(__DIR__ . '/blueprints/');
             $extends = $blueprints->get('feed');

@@ -29,12 +29,12 @@ You should now have all the plugin files under
 `Random` creates a **route** that you define. Based on the **taxonomy** filters, it picks a random item.
 
 By default `Random` looks for all page that are have taxonomy that match those in the plugin's `filter` settings.  For this content to find _anything_ you need to define at
-least one page with a matching taxonomy.  As the default value of the filter is `category: blog` you must have at least one page with this taxonomy. For example:
+least one page with a matching taxonomy.  As the default value of the filter is `category: villa` you must have at least one page with this taxonomy. For example:
 
     ---
     title: Home
     taxonomy:
-        category: blog
+        category: villa
     ---
 
     # Grav is Running!
@@ -47,7 +47,7 @@ least one page with a matching taxonomy.  As the default value of the filter is 
 
     route: /random
     filters:
-        category: blog
+        category: villa
 
 # Customizing the Settings
 
@@ -61,7 +61,7 @@ For further help with the `filters` settings, please refer to our [Taxonomy][tax
 
 ![Random](assets/readme_1.png)
 
-In our [Blog Skeleton](http://demo.getgrav.org/blog-skeleton/) we placed a button in the sidebar that pulls up a random blog post. Here is the code we used in the `sidebar.html.twig` template file to create this button.
+In our [villa Skeleton](http://demo.getgrav.org/villa-skeleton/) we placed a button in the sidebar that pulls up a random villa post. Here is the code we used in the `sidebar.html.twig` template file to create this button.
 
     <a class="button" href="{{ base_url_relative }}/random"><i class="fa fa-retweet"></i> I'm Feeling Lucky!</a>
 
@@ -69,7 +69,7 @@ This button forwards the user to `/random` which is configured as the route for 
 
     enabled: true
     route: /random
-    filters: { category: blog}
+    filters: { category: villa}
     filter_combinator: and    
 
 # Updating

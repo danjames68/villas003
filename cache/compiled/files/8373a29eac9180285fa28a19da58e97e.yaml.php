@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/plugins/archives/archives.yaml',
-    'modified' => 1549544968,
+    'modified' => 1553291746,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -15,7 +15,7 @@ return [
         ],
         'filter_combinator' => 'and',
         'filters' => [
-            'category' => 'blog'
+            'category' => 'villa'
         ],
         'taxonomy_names' => [
             'month' => 'archives_month',

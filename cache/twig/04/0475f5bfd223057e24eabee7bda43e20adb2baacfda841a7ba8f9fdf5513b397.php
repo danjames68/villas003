@@ -16,9 +16,9 @@ class __TwigTemplate_0c850702a3a826ffc1c9b88139395c3536e7ea33ff7317154a9731971b4
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        $context["feed_url"] = (((($this->getAttribute(($context["blog"] ?? null), "url", []) == "/") || ($this->getAttribute(($context["blog"] ?? null), "url", []) == ($context["base_url_relative"] ?? null)))) ? (((($context["base_url_relative"] ?? null) . "/") . $this->getAttribute(($context["blog"] ?? null), "slug", []))) : ($this->getAttribute(($context["blog"] ?? null), "url", [])));
+        $context["feed_url"] = (((($this->getAttribute(($context["villa"] ?? null), "url", []) == "/") || ($this->getAttribute(($context["villa"] ?? null), "url", []) == ($context["base_url_relative"] ?? null)))) ? (((($context["base_url_relative"] ?? null) . "/") . $this->getAttribute(($context["villa"] ?? null), "slug", []))) : ($this->getAttribute(($context["villa"] ?? null), "url", [])));
         // line 2
-        $context["new_base_url"] = ((($this->getAttribute(($context["blog"] ?? null), "url", []) == "/")) ? ("") : ($this->getAttribute(($context["blog"] ?? null), "url", [])));
+        $context["new_base_url"] = ((($this->getAttribute(($context["villa"] ?? null), "url", []) == "/")) ? ("") : ($this->getAttribute(($context["villa"] ?? null), "url", [])));
         // line 3
         echo "
 ";
@@ -157,8 +157,8 @@ class __TwigTemplate_0c850702a3a826ffc1c9b88139395c3536e7ea33ff7317154a9731971b4
 
     public function getSourceContext()
     {
-        return new Twig_Source("{% set feed_url = blog.url == '/' or blog.url == base_url_relative ? (base_url_relative~'/'~blog.slug) : blog.url %}
-{% set new_base_url = blog.url == '/' ? '' : blog.url %}
+        return new Twig_Source("{% set feed_url = villa.url == '/' or villa.url == base_url_relative ? (base_url_relative~'/'~villa.slug) : villa.url %}
+{% set new_base_url = villa.url == '/' ? '' : villa.url %}
 
 {% if config.plugins.simplesearch.enabled %}
 <div class=\"sidebar-content\">

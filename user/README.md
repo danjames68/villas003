@@ -1,6 +1,6 @@
-# Grav Blog Site Skeleton
+# Grav villa Site Skeleton
 
-The *Blog Site* skeleton is a [Grav](http://github.com/getgrav/grav) skeleton and includes a *user* folder giving an example of a blog set up using Grav.
+The *villa Site* skeleton is a [Grav](http://github.com/getgrav/grav) skeleton and includes a *user* folder giving an example of a villa set up using Grav.
 
 # Installation
 

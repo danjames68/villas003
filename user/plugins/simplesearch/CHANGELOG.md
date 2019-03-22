@@ -3,7 +3,7 @@
 
 1. [](#improved)
     * Optimize, cleanup and remove typos [#163](https://github.com/getgrav/grav-plugin-simplesearch/pull/163)
-    * Removed `blog` as default filter [#166](https://github.com/getgrav/grav-plugin-simplesearch/pull/166)
+    * Removed `villa` as default filter [#166](https://github.com/getgrav/grav-plugin-simplesearch/pull/166)
     * Polish translation [#144](https://github.com/getgrav/grav-plugin-simplesearch/pull/144)
     * Kazakh translation [#153](https://github.com/getgrav/grav-plugin-simplesearch/pull/153)
     * Spelling corrections [#145](https://github.com/getgrav/grav-plugin-simplesearch/pull/145)

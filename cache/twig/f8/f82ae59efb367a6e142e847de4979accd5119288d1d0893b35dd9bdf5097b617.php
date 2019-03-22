@@ -63,6 +63,6 @@ class __TwigTemplate_538c917d4a8baaacc33ac23307fd65d533303c44b03ecc5ab1bc7bcdf38
     {{ macros.nav_loop(pages) }}
 </ul>
 
-", "partials/navigation.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/navigation.html.twig");
+", "partials/navigation.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/navigation.html.twig");
     }
 }

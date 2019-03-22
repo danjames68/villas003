@@ -1,6 +1,6 @@
 <?php
 
-/* partials/blog-list-item.html.twig */
+/* partials/villa-list-item.html.twig */
 class __TwigTemplate_69c33d6cb2a894660a043ad8c56a0d4b82e69483f415b3d4e596a90aabe9c89d extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -39,13 +39,13 @@ class __TwigTemplate_69c33d6cb2a894660a043ad8c56a0d4b82e69483f415b3d4e596a90aabe
         <div class=\"card-subtitle text-gray\">
             ";
         // line 10
-        $this->loadTemplate("partials/blog/date.html.twig", "partials/blog-list-item.html.twig", 10)->display($context);
+        $this->loadTemplate("partials/villa/date.html.twig", "partials/villa-list-item.html.twig", 10)->display($context);
         // line 11
         echo "    </div>
         <div class=\"card-title\">
         ";
         // line 13
-        $this->loadTemplate("partials/blog/title.html.twig", "partials/blog-list-item.html.twig", 13)->display(array_merge($context, ["title_level" => "h5"]));
+        $this->loadTemplate("partials/villa/title.html.twig", "partials/villa-list-item.html.twig", 13)->display(array_merge($context, ["title_level" => "h5"]));
         // line 14
         echo "        </div>
     </div>
@@ -70,7 +70,7 @@ class __TwigTemplate_69c33d6cb2a894660a043ad8c56a0d4b82e69483f415b3d4e596a90aabe
     <div class=\"card-footer\">
         ";
         // line 24
-        $this->loadTemplate("partials/blog/taxonomy.html.twig", "partials/blog-list-item.html.twig", 24)->display($context);
+        $this->loadTemplate("partials/villa/taxonomy.html.twig", "partials/villa-list-item.html.twig", 24)->display($context);
         // line 25
         echo "    </div>
 </div>
@@ -80,7 +80,7 @@ class __TwigTemplate_69c33d6cb2a894660a043ad8c56a0d4b82e69483f415b3d4e596a90aabe
 
     public function getTemplateName()
     {
-        return "partials/blog-list-item.html.twig";
+        return "partials/villa-list-item.html.twig";
     }
 
     public function isTraitable()
@@ -112,10 +112,10 @@ class __TwigTemplate_69c33d6cb2a894660a043ad8c56a0d4b82e69483f415b3d4e596a90aabe
     {% endif %}
     <div class=\"card-header\">
         <div class=\"card-subtitle text-gray\">
-            {% include 'partials/blog/date.html.twig' %}
+            {% include 'partials/villa/date.html.twig' %}
     </div>
         <div class=\"card-title\">
-        {% include 'partials/blog/title.html.twig' with {title_level: 'h5'} %}
+        {% include 'partials/villa/title.html.twig' with {title_level: 'h5'} %}
         </div>
     </div>
     <div class=\"card-body\">
@@ -126,10 +126,10 @@ class __TwigTemplate_69c33d6cb2a894660a043ad8c56a0d4b82e69483f415b3d4e596a90aabe
         {% endif %}
     </div>
     <div class=\"card-footer\">
-        {% include 'partials/blog/taxonomy.html.twig' %}
+        {% include 'partials/villa/taxonomy.html.twig' %}
     </div>
 </div>
 
-", "partials/blog-list-item.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/blog-list-item.html.twig");
+", "partials/villa-list-item.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/villa-list-item.html.twig");
     }
 }

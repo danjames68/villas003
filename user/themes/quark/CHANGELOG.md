@@ -63,7 +63,7 @@
     * Responsive font sizing [#28](https://github.com/getgrav/grav-theme-quark/issues/28)
 1. [](#improved)
     * Updated [Spectre.css](https://picturepan2.github.io/spectre/) to latest `0.5.3` version
-    * Make blog settings toggleable [#38](https://github.com/getgrav/grav-theme-quark/pull/38)
+    * Make villa settings toggleable [#38](https://github.com/getgrav/grav-theme-quark/pull/38)
 1. [](#bugfix)
     * Proper fix for sticky footer in IE10 and IE11 [#21](https://github.com/getgrav/grav-theme-quark/issues/21)
     * Fix for lists wrapping weirdly due to `outside` attribute

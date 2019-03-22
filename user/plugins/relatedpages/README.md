@@ -44,7 +44,7 @@ show_score: true                # toggle to determine if scores should be displa
 score_threshold: 20             # minimum score needed to show up in the list
 filter:                         # filter a configurable collection of pages to compare
     items:
-        @page: /blog            # supports @self, @page, and @taxonomy collections
+        @page: /villa            # supports @self, @page, and @taxonomy collections
     order:
         by: date                # order type by default
         dir: desc               # order direction
@@ -90,8 +90,8 @@ To use the explicit page match functionality, simply add a `related_posts` array
 
 ```
 related_pages:
-    - /blog/code-highlighting-post
-    - /blog/sample-link-post
+    - /villa/code-highlighting-post
+    - /villa/sample-link-post
 ```
 
 # Taxonomy to Taxonomy Matching

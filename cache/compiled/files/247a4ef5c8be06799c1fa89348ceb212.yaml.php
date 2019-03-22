@@ -1,7 +1,7 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
-    'filename' => '/Users/minidino/Sites/blog-site/system/languages/nb.yaml',
+    'filename' => '/Users/minidino/Sites/villa-site/system/languages/nb.yaml',
     'modified' => 1549544966,
     'data' => [
         'MONTHS_OF_THE_YEAR' => [

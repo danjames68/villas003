@@ -1,5 +1,5 @@
 {% set collection = collection|default(page.collection) %}
-{% set jsonfeed = {"version" : "https://jsonfeed.org/version/1", "title" : "Your blog name", "home_page_url" : "https://yoursiteurl.com/", "feed_url" : "http://www.yoursiteurl.com/blog"} %}
+{% set jsonfeed = {"version" : "https://jsonfeed.org/version/1", "title" : "Your villa name", "home_page_url" : "https://yoursiteurl.com/", "feed_url" : "http://www.yoursiteurl.com/villa"} %}
 {% set jsonfeed = jsonfeed|merge({"author" : {"url"  : "link to your social media", "name"  : "Your Name"} }) %}
 {% set itemList = [] %}
 {% for item in collection %}

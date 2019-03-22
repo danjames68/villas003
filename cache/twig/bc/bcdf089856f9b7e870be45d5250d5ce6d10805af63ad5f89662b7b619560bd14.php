@@ -120,6 +120,6 @@ class __TwigTemplate_1a292d3e3f6abc85bcc75213ecbd618d3304a3c90072583e18521bb7993
         {% endif %}
     </form>
 </div>
-", "partials/simplesearch_searchbox.html.twig", "/Users/minidino/Sites/blog-site/user/plugins/simplesearch/templates/partials/simplesearch_searchbox.html.twig");
+", "partials/simplesearch_searchbox.html.twig", "/Users/minidino/Sites/villa-site/user/plugins/simplesearch/templates/partials/simplesearch_searchbox.html.twig");
     }
 }

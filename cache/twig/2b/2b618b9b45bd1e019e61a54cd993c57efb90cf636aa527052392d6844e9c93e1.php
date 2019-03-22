@@ -1,6 +1,6 @@
 <?php
 
-/* partials/blog-item.html.twig */
+/* partials/villa-item.html.twig */
 class __TwigTemplate_868de8794bb5bdb1e1874d380d3cec1ac3f47feb4a5567bedbfad2ca9218205f extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -27,7 +27,7 @@ class __TwigTemplate_868de8794bb5bdb1e1874d380d3cec1ac3f47feb4a5567bedbfad2ca921
             echo "    <div class=\"content-title text-center\">
         ";
             // line 7
-            $this->loadTemplate("partials/blog/title.html.twig", "partials/blog-item.html.twig", 7)->display(array_merge($context, ["title_level" => "h2"]));
+            $this->loadTemplate("partials/villa/title.html.twig", "partials/villa-item.html.twig", 7)->display(array_merge($context, ["title_level" => "h2"]));
             // line 8
             echo "        ";
             if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "subtitle", [])) {
@@ -39,10 +39,10 @@ class __TwigTemplate_868de8794bb5bdb1e1874d380d3cec1ac3f47feb4a5567bedbfad2ca921
             }
             // line 11
             echo "        ";
-            $this->loadTemplate("partials/blog/date.html.twig", "partials/blog-item.html.twig", 11)->display($context);
+            $this->loadTemplate("partials/villa/date.html.twig", "partials/villa-item.html.twig", 11)->display($context);
             // line 12
             echo "        ";
-            $this->loadTemplate("partials/blog/taxonomy.html.twig", "partials/blog-item.html.twig", 12)->display($context);
+            $this->loadTemplate("partials/villa/taxonomy.html.twig", "partials/villa-item.html.twig", 12)->display($context);
             // line 13
             echo "    </div>
 ";
@@ -61,7 +61,7 @@ class __TwigTemplate_868de8794bb5bdb1e1874d380d3cec1ac3f47feb4a5567bedbfad2ca921
         if ((($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "continue_link", []) === true) && $this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "comments", []), "enabled", []))) {
             // line 21
             echo "        ";
-            $this->loadTemplate("partials/comments.html.twig", "partials/blog-item.html.twig", 21)->display($context);
+            $this->loadTemplate("partials/comments.html.twig", "partials/villa-item.html.twig", 21)->display($context);
             // line 22
             echo "    ";
         }
@@ -80,7 +80,7 @@ class __TwigTemplate_868de8794bb5bdb1e1874d380d3cec1ac3f47feb4a5567bedbfad2ca921
             echo "            <a class=\"btn\" href=\"";
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "prevSibling", []), "url", []);
             echo "\"><i class=\"fa fa-angle-left\"></i> ";
-            echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("THEME_QUARK.BLOG.ITEM.PREV_POST");
+            echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("THEME_QUARK.villa.ITEM.PREV_POST");
             echo "</a>
     ";
         }
@@ -93,7 +93,7 @@ class __TwigTemplate_868de8794bb5bdb1e1874d380d3cec1ac3f47feb4a5567bedbfad2ca921
             echo "        <a class=\"btn\" href=\"";
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "nextSibling", []), "url", []);
             echo "\">";
-            echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("THEME_QUARK.BLOG.ITEM.NEXT_POST");
+            echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("THEME_QUARK.villa.ITEM.NEXT_POST");
             echo " <i class=\"fa fa-angle-right\"></i></a>
     ";
         }
@@ -104,7 +104,7 @@ class __TwigTemplate_868de8794bb5bdb1e1874d380d3cec1ac3f47feb4a5567bedbfad2ca921
 
     public function getTemplateName()
     {
-        return "partials/blog-item.html.twig";
+        return "partials/villa-item.html.twig";
     }
 
     public function isTraitable()
@@ -133,12 +133,12 @@ class __TwigTemplate_868de8794bb5bdb1e1874d380d3cec1ac3f47feb4a5567bedbfad2ca921
 
 {% if not hero_image_name %}
     <div class=\"content-title text-center\">
-        {% include 'partials/blog/title.html.twig' with {title_level: 'h2'} %}
+        {% include 'partials/villa/title.html.twig' with {title_level: 'h2'} %}
         {% if page.header.subtitle %}
         <h3 >{{ page.header.subtitle }}</h3>
         {% endif %}
-        {% include 'partials/blog/date.html.twig' %}
-        {% include 'partials/blog/taxonomy.html.twig' %}
+        {% include 'partials/villa/date.html.twig' %}
+        {% include 'partials/villa/taxonomy.html.twig' %}
     </div>
 {% endif %}
 
@@ -157,13 +157,13 @@ class __TwigTemplate_868de8794bb5bdb1e1874d380d3cec1ac3f47feb4a5567bedbfad2ca921
 
 
     {% if not page.isLast %}
-            <a class=\"btn\" href=\"{{ page.prevSibling.url }}\"><i class=\"fa fa-angle-left\"></i> {{ 'THEME_QUARK.BLOG.ITEM.PREV_POST'|t }}</a>
+            <a class=\"btn\" href=\"{{ page.prevSibling.url }}\"><i class=\"fa fa-angle-left\"></i> {{ 'THEME_QUARK.villa.ITEM.PREV_POST'|t }}</a>
     {% endif %}
 
     {% if not page.isFirst %}
-        <a class=\"btn\" href=\"{{ page.nextSibling.url }}\">{{ 'THEME_QUARK.BLOG.ITEM.NEXT_POST'|t }} <i class=\"fa fa-angle-right\"></i></a>
+        <a class=\"btn\" href=\"{{ page.nextSibling.url }}\">{{ 'THEME_QUARK.villa.ITEM.NEXT_POST'|t }} <i class=\"fa fa-angle-right\"></i></a>
     {% endif %}
 </p>
-", "partials/blog-item.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/blog-item.html.twig");
+", "partials/villa-item.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/villa-item.html.twig");
     }
 }

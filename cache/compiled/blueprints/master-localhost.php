@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1552855924,
-    'checksum' => '7e37b46c07cbf6ac0c8ef8e5d02170c0',
+    'timestamp' => 1553291799,
+    'checksum' => '3452b4013af942018df37f38d0318eb8',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -29,7 +29,7 @@ return [
         'user/plugins' => [
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/blueprints.yaml',
-                'modified' => 1549544970
+                'modified' => 1553291746
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/plugins/relatedpages/blueprints.yaml',
@@ -37,7 +37,7 @@ return [
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/blueprints.yaml',
-                'modified' => 1549544972
+                'modified' => 1553291746
             ],
             'plugins/sitemap' => [
                 'file' => 'user/plugins/sitemap/blueprints.yaml',
@@ -49,15 +49,15 @@ return [
             ],
             'plugins/archives' => [
                 'file' => 'user/plugins/archives/blueprints.yaml',
-                'modified' => 1549544968
+                'modified' => 1553291746
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/blueprints.yaml',
-                'modified' => 1549544970
+                'modified' => 1553291746
             ],
             'plugins/random' => [
                 'file' => 'user/plugins/random/blueprints.yaml',
-                'modified' => 1549544972
+                'modified' => 1553291746
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
@@ -65,11 +65,11 @@ return [
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/plugins/breadcrumbs/blueprints.yaml',
-                'modified' => 1549544968
+                'modified' => 1553291746
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/blueprints.yaml',
-                'modified' => 1549544974
+                'modified' => 1553291746
             ]
         ]
     ],
@@ -3010,7 +3010,7 @@ return [
             ],
             'plugins.taxonomylist.route' => [
                 'type' => 'text',
-                'label' => 'Route to blog',
+                'label' => 'Route to villa',
                 'validate' => [
                     'pattern' => '/([a-z\\-_]+/?)+'
                 ],

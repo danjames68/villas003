@@ -1,6 +1,6 @@
 <?php
 
-/* partials/blog/title.html.twig */
+/* partials/villa/title.html.twig */
 class __TwigTemplate_0377c1e6c92dc61b1ff64661ff559d2f84ccb13a8cd8304dd2358f3ca833d9d6 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -60,7 +60,7 @@ class __TwigTemplate_0377c1e6c92dc61b1ff64661ff559d2f84ccb13a8cd8304dd2358f3ca83
 
     public function getTemplateName()
     {
-        return "partials/blog/title.html.twig";
+        return "partials/villa/title.html.twig";
     }
 
     public function isTraitable()
@@ -94,6 +94,6 @@ class __TwigTemplate_0377c1e6c92dc61b1ff64661ff559d2f84ccb13a8cd8304dd2358f3ca83
 {% else %}
     <{{ title_level }} class=\"p-name mt-1\"><a href=\"{{ page.url }}\" class=\"u-url\">{{ page.title }}</a></{{ title_level }}>
 {% endif %}
-", "partials/blog/title.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/blog/title.html.twig");
+", "partials/villa/title.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/villa/title.html.twig");
     }
 }

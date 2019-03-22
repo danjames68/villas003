@@ -21,13 +21,13 @@ form:
       type: spacer
       title: Configuration
 
-    header.blog_url:
+    header.villa_url:
       type: text
       toggleable: true
-      label: Blog Route
-      help: The route to the main blog page that contains the "Show ..." configuration
-      default: '/blog'
-      placeholder: '/blog'
+      label: villa Route
+      help: The route to the main villa page that contains the "Show ..." configuration
+      default: '/villa'
+      placeholder: '/villa'
       size: medium
 
     header.show_sidebar:

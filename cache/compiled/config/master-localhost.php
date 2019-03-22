@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1552855924,
-    'checksum' => '2bcec69ee492a109c721624e60e9872b',
+    'timestamp' => 1553291799,
+    'checksum' => 'dc27452241abc5e0ef1e8ee95289e087',
     'files' => [
         'user/config' => [
             'plugins/simplesearch' => [
@@ -19,11 +19,11 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1549544966
+                'modified' => 1553291743
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1549544966
+                'modified' => 1553291743
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
@@ -41,7 +41,7 @@ return [
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1549544966
+                'modified' => 1553291743
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
@@ -59,7 +59,7 @@ return [
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/plugins/relatedpages/relatedpages.yaml',
-                'modified' => 1549544972
+                'modified' => 1553291746
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
@@ -75,7 +75,7 @@ return [
             ],
             'plugins/archives' => [
                 'file' => 'user/plugins/archives/archives.yaml',
-                'modified' => 1549544968
+                'modified' => 1553291746
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/feed.yaml',
@@ -83,7 +83,7 @@ return [
             ],
             'plugins/random' => [
                 'file' => 'user/plugins/random/random.yaml',
-                'modified' => 1549544972
+                'modified' => 1553291746
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -95,7 +95,7 @@ return [
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
-                'modified' => 1549544974
+                'modified' => 1553291746
             ]
         ]
     ],
@@ -113,7 +113,7 @@ return [
                 'score_threshold' => 20,
                 'filter' => [
                     'items' => [
-                        '@page' => '/blog'
+                        '@page' => '/villa'
                     ],
                     'order' => [
                         'by' => 'date',
@@ -194,7 +194,7 @@ return [
                 ],
                 'filter_combinator' => 'and',
                 'filters' => [
-                    'category' => 'blog'
+                    'category' => 'villa'
                 ],
                 'taxonomy_names' => [
                     'month' => 'archives_month',
@@ -214,7 +214,7 @@ return [
                 'route' => '/random',
                 'redirect' => true,
                 'filters' => [
-                    'category' => 'blog'
+                    'category' => 'villa'
                 ],
                 'filter_combinator' => 'and'
             ],
@@ -236,7 +236,7 @@ return [
             ],
             'taxonomylist' => [
                 'enabled' => true,
-                'route' => '/blog'
+                'route' => '/villa'
             ],
             'tntsearch' => [
                 'enabled' => false
@@ -551,7 +551,7 @@ return [
             'title' => 'Grav',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
+                'name' => 'Joe villags',
                 'email' => 'joe@test.com'
             ],
             'taxonomies' => [
@@ -569,13 +569,13 @@ return [
                 'delimiter' => '==='
             ],
             'redirects' => [
-                '/changelog' => '/blog/the-urban-jungle'
+                '/changelog' => '/villa/the-urban-jungle'
             ],
             'routes' => [
-                '/something/else' => '/blog/focus-and-blur',
-                '/another/one/(.*)' => '/blog/$1'
+                '/something/else' => '/villa/focus-and-blur',
+                '/another/one/(.*)' => '/villa/$1'
             ],
-            'blog' => [
+            'villa' => [
                 'route' => ''
             ]
         ],
@@ -627,7 +627,7 @@ return [
                 'override_locale' => false
             ],
             'home' => [
-                'alias' => '/blog',
+                'alias' => '/villa',
                 'hide_in_urls' => false
             ],
             'pages' => [

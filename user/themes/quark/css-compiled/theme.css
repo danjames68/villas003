@@ -313,16 +313,16 @@ body.sticky-footer #page-wrapper { -ms-flex: 1 0 auto; flex: 1 0 auto; }
 
 #breadcrumbs span:not(:first-child)::before, #breadcrumbs a:not(:first-child)::before { color: #e7e9ed; content: "/"; padding-right: 1rem; }
 
-/** Blog Listing **/
-.blog-listing .bricklayer-column { padding-left: 0px; padding-right: 25px; }
+/** villa Listing **/
+.villa-listing .bricklayer-column { padding-left: 0px; padding-right: 25px; }
 
-.blog-listing .card { margin-bottom: 25px; border: 0; box-shadow: 0 10px 45px -9px rgba(0, 0, 0, 0.1); }
+.villa-listing .card { margin-bottom: 25px; border: 0; box-shadow: 0 10px 45px -9px rgba(0, 0, 0, 0.1); }
 
-.blog-listing .card-footer { text-align: right; }
+.villa-listing .card-footer { text-align: right; }
 
-.blog-listing .blog-date { font-size: 13px; }
+.villa-listing .villa-date { font-size: 13px; }
 
-/** Blog Item **/
+/** villa Item **/
 .content-title { margin-bottom: 2rem; }
 
 .content-title h2 { margin-bottom: 0.5rem; }

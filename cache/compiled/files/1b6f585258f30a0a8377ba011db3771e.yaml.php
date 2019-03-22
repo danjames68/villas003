@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/plugins/breadcrumbs/blueprints.yaml',
-    'modified' => 1549544968,
+    'modified' => 1553291746,
     'data' => [
         'name' => 'Breadcrumbs',
         'version' => '1.5.1',
@@ -14,7 +14,7 @@ return [
             'url' => 'http://getgrav.org'
         ],
         'homepage' => 'https://github.com/getgrav/grav-plugin-breadcrumbs',
-        'demo' => 'http://demo.getgrav.org/blog-skeleton',
+        'demo' => 'http://demo.getgrav.org/villa-skeleton',
         'keywords' => 'breadcrumbs, plugin, navigation, depth',
         'bugs' => 'https://github.com/getgrav/grav-plugin-breadcrumbs/issues',
         'license' => 'MIT',

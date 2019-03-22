@@ -1,7 +1,7 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
-    'filename' => '/Users/minidino/Sites/blog-site/system/languages/sv.yaml',
+    'filename' => '/Users/minidino/Sites/villa-site/system/languages/sv.yaml',
     'modified' => 1549544966,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '--- titel: %1$s --- # Fel: Ogiltig Frontmatter-sökväg: `%2$s` **%3$s** ``` %4$s ```',

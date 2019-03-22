@@ -7,8 +7,8 @@ author:
   email: devs@getgrav.org
   url: http://getgrav.org
 homepage: https://github.com/getgrav/grav-plugin-archives
-demo: http://demo.getgrav.org/blog-skeleton
-keywords: archives, plugin, blog, month, year, date, navigation, history
+demo: http://demo.getgrav.org/villa-skeleton
+keywords: archives, plugin, villa, month, year, date, navigation, history
 bugs: https://github.com/getgrav/grav-plugin-archives/issues
 license: MIT
 

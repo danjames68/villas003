@@ -76,6 +76,6 @@ class __TwigTemplate_e51a23eba58361acb217c7fb9c28de4f01ecf2a5a4db796c018478b9fe8
         {{ content|raw }}
     </section>
     <i id=\"to-start\" class=\"pulse fa fa-angle-down\"></i>
-</section>", "partials/hero.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/hero.html.twig");
+</section>", "partials/hero.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/hero.html.twig");
     }
 }

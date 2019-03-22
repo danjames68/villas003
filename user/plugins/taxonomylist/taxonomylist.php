@@ -51,7 +51,7 @@ class TaxonomylistPlugin extends Plugin
         $twig = $this->grav['twig'];
         $twig->twig_vars['taxonomylist'] = new Taxonomylist();
         $twig->twig_vars['list_url'] = $this->config->get(
-            'site.blog.route',
+            'site.villa.route',
             $this->config->get('plugins.taxonomylist.route')
         );
     }

@@ -5,9 +5,9 @@ form:
     tabs:
 
       fields:
-        blog:
+        villa:
           type: tab
-          title: Blog Item
+          title: villa Item
 
           fields:
 
@@ -110,4 +110,4 @@ form:
               placeholder: ===
 
           import@:
-            type: partials/blog-bits
+            type: partials/villa-bits

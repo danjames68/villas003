@@ -1,7 +1,7 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
-    'filename' => '/Users/minidino/Sites/blog-site/system/languages/sk.yaml',
+    'filename' => '/Users/minidino/Sites/villa-site/system/languages/sk.yaml',
     'modified' => 1549544966,
     'data' => [
         'NICETIME' => [

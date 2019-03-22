@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/plugins/pagination/blueprints.yaml',
-    'modified' => 1549544970,
+    'modified' => 1553291746,
     'data' => [
         'name' => 'Pagination',
         'version' => '1.4.1',
-        'description' => '**Pagination** is a very useful plugin to help navigate a large collection of pages, such as for a **blog**.',
+        'description' => '**Pagination** is a very useful plugin to help navigate a large collection of pages, such as for a **villa**.',
         'icon' => 'list-ol',
         'author' => [
             'name' => 'Team Grav',

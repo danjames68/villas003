@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/plugins/archives/blueprints.yaml',
-    'modified' => 1549544968,
+    'modified' => 1553291746,
     'data' => [
         'name' => 'Archives',
         'version' => '1.5.1',
@@ -14,8 +14,8 @@ return [
             'url' => 'http://getgrav.org'
         ],
         'homepage' => 'https://github.com/getgrav/grav-plugin-archives',
-        'demo' => 'http://demo.getgrav.org/blog-skeleton',
-        'keywords' => 'archives, plugin, blog, month, year, date, navigation, history',
+        'demo' => 'http://demo.getgrav.org/villa-skeleton',
+        'keywords' => 'archives, plugin, villa, month, year, date, navigation, history',
         'bugs' => 'https://github.com/getgrav/grav-plugin-archives/issues',
         'license' => 'MIT',
         'form' => [

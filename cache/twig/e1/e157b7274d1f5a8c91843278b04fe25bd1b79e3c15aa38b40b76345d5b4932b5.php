@@ -76,6 +76,6 @@ class __TwigTemplate_4ba1566cd98ce6b1d8f405d7225a85f9d870602bfb635f0a77a743e1b77
 {% else %}
   {% include('@images/grav-logo.svg') %}
 {% endif %}
-</a>", "partials/logo.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/logo.html.twig");
+</a>", "partials/logo.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/logo.html.twig");
     }
 }

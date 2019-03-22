@@ -1573,7 +1573,7 @@ class Page implements PageInterface
      * Gets and Sets the slug for the Page. The slug is used in the URL routing. If not set it uses
      * the parent folder from the path
      *
-     * @param  string $var the slug, e.g. 'my-blog'
+     * @param  string $var the slug, e.g. 'my-villa'
      *
      * @return string      the slug
      */
@@ -2778,9 +2778,9 @@ class Page implements PageInterface
             case 'taxonomy@':
             case '@taxonomy':
                 // Gets a collection of pages by using one of the following formats:
-                // @taxonomy.category: blog
-                // @taxonomy.category: [ blog, featured ]
-                // @taxonomy: { category: [ blog, featured ], level: 1 }
+                // @taxonomy.category: villa
+                // @taxonomy.category: [ villa, featured ]
+                // @taxonomy: { category: [ villa, featured ], level: 1 }
 
                 /** @var Taxonomy $taxonomy_map */
                 $taxonomy_map = Grav::instance()['taxonomy'];

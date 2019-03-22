@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://quark/quark.yaml',
-    'modified' => 1549544972,
+    'modified' => 1553291746,
     'data' => [
         'enabled' => true,
         'production-mode' => true,
@@ -12,7 +12,7 @@ return [
         'header-dark' => false,
         'header-transparent' => false,
         'sticky-footer' => true,
-        'blog-page' => '/blog',
+        'villa-page' => '/villa',
         'spectre' => [
             'exp' => false,
             'icons' => false

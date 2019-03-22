@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/plugins/relatedpages/relatedpages.yaml',
-    'modified' => 1549544972,
+    'modified' => 1553291746,
     'data' => [
         'enabled' => true,
         'limit' => 5,
@@ -10,7 +10,7 @@ return [
         'score_threshold' => 20,
         'filter' => [
             'items' => [
-                '@page' => '/blog'
+                '@page' => '/villa'
             ],
             'order' => [
                 'by' => 'date',

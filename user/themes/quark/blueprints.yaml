@@ -132,17 +132,17 @@ form:
       validate:
         type: bool
 
-    blog_section:
+    villa_section:
       type: section
-      title: Blog Defaults
+      title: villa Defaults
       underline: true
 
-    blog-page:
+    villa-page:
       type: text
-      label: Blog Page
-      help: The route to the blog page when working with blog sidebar
+      label: villa Page
+      help: The route to the villa page when working with villa sidebar
       size: medium
-      default: '/blog'
+      default: '/villa'
 
     spectre_section:
       type: section

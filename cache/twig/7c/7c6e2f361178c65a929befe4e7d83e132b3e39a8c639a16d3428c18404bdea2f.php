@@ -102,6 +102,6 @@ class __TwigTemplate_7de2a1cd6e883af56990d04c8c8538f8c8d18666859bfd25a37eaee44a5
             </li>
         {% endif %}
     {% endfor %}
-</ul>", "partials/relatedpages.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/relatedpages.html.twig");
+</ul>", "partials/relatedpages.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/relatedpages.html.twig");
     }
 }

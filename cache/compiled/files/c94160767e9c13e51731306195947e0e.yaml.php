@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/plugins/random/blueprints.yaml',
-    'modified' => 1549544972,
+    'modified' => 1553291746,
     'data' => [
         'name' => 'Random',
         'version' => '1.5.0',
@@ -14,8 +14,8 @@ return [
             'url' => 'http://getgrav.org'
         ],
         'homepage' => 'https://github.com/getgrav/grav-plugin-random',
-        'demo' => 'http://demo.getgrav.org/blog-skeleton',
-        'keywords' => 'random, plugin, blog, pages',
+        'demo' => 'http://demo.getgrav.org/villa-skeleton',
+        'keywords' => 'random, plugin, villa, pages',
         'bugs' => 'https://github.com/getgrav/grav-plugin-random/issues',
         'license' => 'MIT',
         'form' => [

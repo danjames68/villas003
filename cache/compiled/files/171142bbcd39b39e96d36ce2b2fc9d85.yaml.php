@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/plugins/feed/blueprints.yaml',
-    'modified' => 1549544970,
+    'modified' => 1553291746,
     'data' => [
         'name' => 'Feed',
         'version' => '1.6.2',
@@ -14,7 +14,7 @@ return [
             'url' => 'http://getgrav.org'
         ],
         'homepage' => 'https://github.com/getgrav/grav-plugin-feed',
-        'demo' => 'http://demo.getgrav.org/blog-skeleton',
+        'demo' => 'http://demo.getgrav.org/villa-skeleton',
         'keywords' => 'feed, plugin, rss, atom, collection, json',
         'bugs' => 'https://github.com/getgrav/grav-plugin-feed/issues',
         'license' => 'MIT',

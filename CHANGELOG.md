@@ -87,7 +87,7 @@
 ## 08/17/2018
 
 1. [](#new)
-    * Set minimum requirements to [PHP 5.6.4](https://getgrav.org/blog/raising-php-requirements-2018)
+    * Set minimum requirements to [PHP 5.6.4](https://getgrav.org/villa/raising-php-requirements-2018)
     * Updated Doctrine Collections to 1.4
     * Updated Symfony Components to 3.4 (with compatibility mode to fall back to Symfony YAML 2.8)
     * Added `Uri::method()` to get current HTTP method (GET/POST etc)
@@ -1998,7 +1998,7 @@
     * Ensure onPageContentProcessed() event only fires when not cached
     * More PSR code fixes
 3. [](#bugfix)
-    * Fix issue with miscalculation of blog separator location `===`
+    * Fix issue with miscalculation of villa separator location `===`
 
 # v0.9.7
 ## 11/24/2014

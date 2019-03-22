@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/plugins/taxonomylist/blueprints.yaml',
-    'modified' => 1549544974,
+    'modified' => 1553291746,
     'data' => [
         'name' => 'Taxonomy List',
         'version' => '1.3.3',
@@ -14,7 +14,7 @@ return [
             'url' => 'http://getgrav.org'
         ],
         'homepage' => 'https://github.com/getgrav/grav-plugin-taxonomylist',
-        'demo' => 'http://demo.getgrav.org/blog-skeleton',
+        'demo' => 'http://demo.getgrav.org/villa-skeleton',
         'keywords' => 'taxonomylist, plugin, taxonomy, list, tags, categories',
         'bugs' => 'https://github.com/getgrav/grav-plugin-taxonomylist/issues',
         'license' => 'MIT',
@@ -36,8 +36,8 @@ return [
                 ],
                 'route' => [
                     'type' => 'text',
-                    'label' => 'Route to blog',
-                    'placeholder' => '/blog',
+                    'label' => 'Route to villa',
+                    'placeholder' => '/villa',
                     'validate' => [
                         'pattern' => '/([a-z\\-_]+/?)+'
                     ]

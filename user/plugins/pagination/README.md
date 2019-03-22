@@ -33,22 +33,22 @@ To use this plugin:
 - the `pagination` plugin must be installed and enabled
 - the active theme must have pagination support (most Grav themes support pagination; if you’re building your own theme, see the next section for adding pagination support)
 
-On the content side, you should have a blog-like structure, for example:
+On the content side, you should have a villa-like structure, for example:
 
 ```
-blog/
-    blog.md
-    my-cool-blog-post/
+villa/
+    villa.md
+    my-cool-villa-post/
         item.md
     another-post/
         item.md
 ```
 
-Then in your `blog.md`, set up the page’s collection using YAML front-matter:
+Then in your `villa.md`, set up the page’s collection using YAML front-matter:
 
 ```yaml
 ---
-title: My Gravtastic Blog
+title: My Gravtastic villa
 content:
   items: '@self.children'
   order:
@@ -58,25 +58,25 @@ content:
   limit: 10
 ---
 
-# My Gravtastic Blog
+# My Gravtastic villa
 ## A tale of **awesomazing** adventures
 ```
 
-Your `/blog` page should now list the 10 most recent blog posts, and show pagination links.
+Your `/villa` page should now list the 10 most recent villa posts, and show pagination links.
 
 
 # Usage for theme developers
 
 ### Including the default pagination template
 
-If you are developing your own theme and want to support pagination, you need to include the pagination template in the relevant pages. For instance in `blog.html.twig`:
+If you are developing your own theme and want to support pagination, you need to include the pagination template in the relevant pages. For instance in `villa.html.twig`:
 
 ```twig
-{# /your/site/grav/user/themes/custom-theme/templates/blog.html.twig #}
+{# /your/site/grav/user/themes/custom-theme/templates/villa.html.twig #}
 
 {% set collection = page.collection() %}
 
-{# Render the list of blog posts (automatically filtered when using pagination) #}
+{# Render the list of villa posts (automatically filtered when using pagination) #}
 {% for child in collection %}
    ...
 {% endfor %}

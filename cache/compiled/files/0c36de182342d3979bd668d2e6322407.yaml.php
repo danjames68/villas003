@@ -2,14 +2,14 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/config/site.yaml',
-    'modified' => 1549544966,
+    'modified' => 1553291743,
     'data' => [
         'title' => 'Grav',
         'author' => [
-            'name' => 'Joe Bloggs',
+            'name' => 'Joe villags',
             'email' => 'joe@test.com'
         ],
-        'blog' => [
+        'villa' => [
             'route' => ''
         ],
         'metadata' => [
@@ -21,11 +21,11 @@ return [
             2 => 'month'
         ],
         'redirects' => [
-            '/changelog' => '/blog/the-urban-jungle'
+            '/changelog' => '/villa/the-urban-jungle'
         ],
         'routes' => [
-            '/something/else' => '/blog/focus-and-blur',
-            '/another/one/(.*)' => '/blog/$1'
+            '/something/else' => '/villa/focus-and-blur',
+            '/another/one/(.*)' => '/villa/$1'
         ]
     ]
 ];

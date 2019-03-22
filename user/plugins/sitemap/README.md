@@ -35,7 +35,7 @@ The `sitemap` plugin works out of the box. You can just go directly to `http://y
 enabled: true
 route: '/sitemap'
 ignores:
-  - /blog/blog-post-to-ignore
+  - /villa/villa-post-to-ignore
   - /ignore-this-route
   - /ignore-children-of-this-route/.*
 ```

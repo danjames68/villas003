@@ -7,8 +7,8 @@ author:
   email: devs@getgrav.org
   url: http://getgrav.org
 homepage: https://github.com/getgrav/grav-plugin-random
-demo: http://demo.getgrav.org/blog-skeleton
-keywords: random, plugin, blog, pages
+demo: http://demo.getgrav.org/villa-skeleton
+keywords: random, plugin, villa, pages
 bugs: https://github.com/getgrav/grav-plugin-random/issues
 license: MIT
 

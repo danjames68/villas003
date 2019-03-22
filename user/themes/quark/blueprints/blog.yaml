@@ -20,9 +20,9 @@ form:
               fields:
                 header.child_type:
                   default: item
-        blog:
+        villa:
           type: tab
-          title: Blog Config
+          title: villa Config
 
           fields:
 
@@ -88,7 +88,7 @@ form:
                 type: bool
 
           import@:
-            type: partials/blog-bits
+            type: partials/villa-bits
             context: blueprints://pages
 
 

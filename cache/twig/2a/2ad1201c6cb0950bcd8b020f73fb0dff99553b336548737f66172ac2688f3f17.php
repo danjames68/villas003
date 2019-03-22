@@ -90,6 +90,6 @@ class __TwigTemplate_556b21f29994eaa518ec0542e558614e1c38f6f54cf20e77f8e3e20dba8
     {% endfor %}
 </span>
 {% endif %}
-", "partials/taxonomylist.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/taxonomylist.html.twig");
+", "partials/taxonomylist.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/taxonomylist.html.twig");
     }
 }

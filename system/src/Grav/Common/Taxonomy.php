@@ -24,7 +24,7 @@ use Grav\Common\Page\Page;
  *
  * For example:
  *
- * [category][blog][path/to/item1]
+ * [category][villa][path/to/item1]
  * [tag][grav][path/to/item1]
  * [tag][grav][path/to/item2]
  * [tag][dog][path/to/item3]

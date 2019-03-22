@@ -12,7 +12,7 @@ class PHPVersion extends Problem
         $this->order = 102;
         $this->level = Problem::LEVEL_CRITICAL;
         $this->status = false;
-        $this->help = 'https://getgrav.org/blog/raising-php-requirements-2018';
+        $this->help = 'https://getgrav.org/villa/raising-php-requirements-2018';
     }
 
     public function process()

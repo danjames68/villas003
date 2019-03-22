@@ -1,6 +1,6 @@
 <?php
 
-/* partials/blog/date.html.twig */
+/* partials/villa/date.html.twig */
 class __TwigTemplate_7b753bc011e57adc19ed565158aa93aeb451fdcde0decd78df93d308decbd6b8 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -16,7 +16,7 @@ class __TwigTemplate_7b753bc011e57adc19ed565158aa93aeb451fdcde0decd78df93d308dec
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        echo "<span class=\"blog-date\">
+        echo "<span class=\"villa-date\">
     <time class=\"dt-published\" datetime=\"";
         // line 2
         echo twig_date_format_filter($this->env, $this->getAttribute(($context["page"] ?? null), "date", []), "c");
@@ -32,7 +32,7 @@ class __TwigTemplate_7b753bc011e57adc19ed565158aa93aeb451fdcde0decd78df93d308dec
 
     public function getTemplateName()
     {
-        return "partials/blog/date.html.twig";
+        return "partials/villa/date.html.twig";
     }
 
     public function isTraitable()
@@ -55,11 +55,11 @@ class __TwigTemplate_7b753bc011e57adc19ed565158aa93aeb451fdcde0decd78df93d308dec
 
     public function getSourceContext()
     {
-        return new Twig_Source("<span class=\"blog-date\">
+        return new Twig_Source("<span class=\"villa-date\">
     <time class=\"dt-published\" datetime=\"{{ page.date|date(\"c\") }}\">
         <i class=\"fa fa-calendar\"></i> {{ page.date|date(system.pages.dateformat.short) }}
     </time>
 </span>
-", "partials/blog/date.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/blog/date.html.twig");
+", "partials/villa/date.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/villa/date.html.twig");
     }
 }

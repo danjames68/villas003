@@ -1,5 +1,5 @@
 enabled: true
 route: /random
 redirect: true
-filters: { category: blog}
+filters: { category: villa}
 filter_combinator: and    

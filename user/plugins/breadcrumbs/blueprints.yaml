@@ -7,7 +7,7 @@ author:
   email: devs@getgrav.org
   url: http://getgrav.org
 homepage: https://github.com/getgrav/grav-plugin-breadcrumbs
-demo: http://demo.getgrav.org/blog-skeleton
+demo: http://demo.getgrav.org/villa-skeleton
 keywords: breadcrumbs, plugin, navigation, depth
 bugs: https://github.com/getgrav/grav-plugin-breadcrumbs/issues
 license: MIT

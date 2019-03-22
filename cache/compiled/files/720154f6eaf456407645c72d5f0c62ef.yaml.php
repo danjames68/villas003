@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/themes/quark/languages.yaml',
-    'modified' => 1549544972,
+    'modified' => 1553291746,
     'data' => [
         'en' => [
             'THEME_QUARK' => [
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Continue reading...',
                         'NEXT_POST' => 'Next Post',
@@ -41,7 +41,7 @@ return [
         ],
         'de' => [
             'THEME_QUARK' => [
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Weiterlesen...',
                         'NEXT_POST' => 'Nächster Beitrag',
@@ -76,7 +76,7 @@ return [
         ],
         'es' => [
             'THEME_QUARK' => [
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Continuar leyendo...',
                         'NEXT_POST' => 'Siguiente Entrada',
@@ -112,7 +112,7 @@ return [
         'fr' => [
             'THEME_QUARK' => [
                 'TRANSLATION_TEST' => 'Quark !',
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Continuer la lecture...',
                         'NEXT_POST' => 'Article suivant',
@@ -147,7 +147,7 @@ return [
         ],
         'it' => [
             'THEME_QUARK' => [
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Continua a leggere...',
                         'NEXT_POST' => 'Prossimo articolo',
@@ -182,7 +182,7 @@ return [
         ],
         'ro' => [
             'THEME_QUARK' => [
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Mai multe...',
                         'NEXT_POST' => 'Următorul articol',
@@ -217,7 +217,7 @@ return [
         ],
         'ru' => [
             'THEME_QUARK' => [
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Читать далее...',
                         'NEXT_POST' => 'Следующая запись',
@@ -252,7 +252,7 @@ return [
         ],
         'uk' => [
             'THEME_QUARK' => [
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Читати далі...',
                         'NEXT_POST' => 'Наступний запис',
@@ -287,7 +287,7 @@ return [
         ],
         'hr' => [
             'THEME_QUARK' => [
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Nastavi s čitanjem...',
                         'NEXT_POST' => 'Slijedeća objava',
@@ -322,7 +322,7 @@ return [
         ],
         'nl' => [
             'THEME_QUARK' => [
-                'BLOG' => [
+                'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Lees Meer...',
                         'NEXT_POST' => 'Volgende Bericht',

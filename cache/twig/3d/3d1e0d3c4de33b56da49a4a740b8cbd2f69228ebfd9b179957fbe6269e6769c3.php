@@ -25,17 +25,17 @@ class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc386
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 2
-        $context["blog_image"] = (($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), "images", []), $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "hero_image", []), [], "array")) ? ($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), "images", []), $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "hero_image", []), [], "array")) : (twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), "images", []))));
+        $context["villa_image"] = (($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), "images", []), $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "hero_image", []), [], "array")) ? ($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), "images", []), $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "hero_image", []), [], "array")) : (twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), "images", []))));
         // line 3
         $context["collection"] = $this->getAttribute(($context["page"] ?? null), "collection", [], "method");
         // line 4
-        $context["blog"] = $this->getAttribute(($context["page"] ?? null), "find", [0 => $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->pageHeaderVarFunc("blog_url"), $this->env->getExtension('Grav\Common\Twig\TwigExtension')->themeVarFunc("blog-page"))], "method");
+        $context["villa"] = $this->getAttribute(($context["page"] ?? null), "find", [0 => $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->pageHeaderVarFunc("villa_url"), $this->env->getExtension('Grav\Common\Twig\TwigExtension')->themeVarFunc("villa-page"))], "method");
         // line 5
-        $context["show_breadcrumbs"] = $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->pageHeaderVarFunc("show_breadcrumbs", [0 => ($context["page"] ?? null), 1 => ($context["blog"] ?? null)]), true);
+        $context["show_breadcrumbs"] = $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->pageHeaderVarFunc("show_breadcrumbs", [0 => ($context["page"] ?? null), 1 => ($context["villa"] ?? null)]), true);
         // line 6
-        $context["show_sidebar"] = $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->pageHeaderVarFunc("show_sidebar", [0 => ($context["page"] ?? null), 1 => ($context["blog"] ?? null)]), true);
+        $context["show_sidebar"] = $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->pageHeaderVarFunc("show_sidebar", [0 => ($context["page"] ?? null), 1 => ($context["villa"] ?? null)]), true);
         // line 7
-        $context["show_pagination"] = $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->pageHeaderVarFunc("show_pagination", [0 => ($context["page"] ?? null), 1 => ($context["blog"] ?? null)]), true);
+        $context["show_pagination"] = $this->env->getExtension('Grav\Common\Twig\TwigExtension')->definedDefaultFilter($this->env->getExtension('Grav\Common\Twig\TwigExtension')->pageHeaderVarFunc("show_pagination", [0 => ($context["page"] ?? null), 1 => ($context["villa"] ?? null)]), true);
         // line 1
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
@@ -73,14 +73,14 @@ class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc386
     {
         // line 22
         echo "    ";
-        $this->loadTemplate("partials/hero.html.twig", "blog.html.twig", 22)->display(array_merge($context, ["id" => "blog-hero", "content" => $this->getAttribute(($context["page"] ?? null), "content", []), "hero_image" => ($context["blog_image"] ?? null)]));
+        $this->loadTemplate("partials/hero.html.twig", "blog.html.twig", 22)->display(array_merge($context, ["id" => "villa-hero", "content" => $this->getAttribute(($context["page"] ?? null), "content", []), "hero_image" => ($context["villa_image"] ?? null)]));
     }
 
     // line 25
     public function block_body($context, array $blocks = [])
     {
         // line 26
-        echo "    <section id=\"body-wrapper\" class=\"section blog-listing\">
+        echo "    <section id=\"body-wrapper\" class=\"section villa-listing\">
         <section class=\"container ";
         // line 27
         echo ($context["grid_size"] ?? null);
@@ -99,7 +99,7 @@ class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc386
         echo "
         ";
         // line 33
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 33, "818193741")->display(array_merge($context, ["blog" => ($context["page"] ?? null)]));
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 33, "420466218")->display(array_merge($context, ["villa" => ($context["page"] ?? null)]));
         // line 54
         echo "        </section>
     </section>
@@ -136,12 +136,12 @@ class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc386
     public function getSourceContext()
     {
         return new Twig_Source("{% extends 'partials/base.html.twig' %}
-{% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
+{% set villa_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
 {% set collection = page.collection() %}
-{% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
-{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
-{% set show_sidebar = header_var('show_sidebar', [page, blog])|defined(true)  %}
-{% set show_pagination = header_var('show_pagination', [page, blog])|defined(true) %}
+{% set villa = page.find(header_var('villa_url')|defined(theme_var('villa-page'))) %}
+{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, villa])|defined(true) %}
+{% set show_sidebar = header_var('show_sidebar', [page, villa])|defined(true)  %}
+{% set show_pagination = header_var('show_pagination', [page, villa])|defined(true) %}
 
 {% block stylesheets %}
     {% do assets.addCss('theme://css/bricklayer.css') %}
@@ -156,23 +156,23 @@ class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc386
 
 
 {% block hero %}
-    {% include 'partials/hero.html.twig' with {id: 'blog-hero', content: page.content, hero_image: blog_image} %}
+    {% include 'partials/hero.html.twig' with {id: 'villa-hero', content: page.content, hero_image: villa_image} %}
 {% endblock %}
 
 {% block body %}
-    <section id=\"body-wrapper\" class=\"section blog-listing\">
+    <section id=\"body-wrapper\" class=\"section villa-listing\">
         <section class=\"container {{ grid_size }}\">
 
         {% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
             {% include 'partials/breadcrumbs.html.twig' %}
         {% endif %}
 
-        {% embed 'partials/layout.html.twig' with {blog: page} %}
+        {% embed 'partials/layout.html.twig' with {villa: page} %}
             {% block item %}
 
                 <div class=\"bricklayer\">
                 {% for child in collection %}
-                    {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+                    {% include 'partials/villa-list-item.html.twig' with {villa: page, page: child} %}
                 {% endfor %}
                 </div>
 
@@ -204,7 +204,7 @@ class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc386
 
 
 /* blog.html.twig */
-class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc38684ab3_818193741 extends Twig_Template
+class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc38684ab3_420466218 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -254,7 +254,7 @@ class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc386
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
             // line 38
             echo "                    ";
-            $this->loadTemplate("partials/blog-list-item.html.twig", "blog.html.twig", 38)->display(array_merge($context, ["blog" => ($context["page"] ?? null), "page" => $context["child"]]));
+            $this->loadTemplate("partials/villa-list-item.html.twig", "blog.html.twig", 38)->display(array_merge($context, ["villa" => ($context["page"] ?? null), "page" => $context["child"]]));
             // line 39
             echo "                ";
             ++$context['loop']['index0'];
@@ -325,12 +325,12 @@ class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc386
     public function getSourceContext()
     {
         return new Twig_Source("{% extends 'partials/base.html.twig' %}
-{% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
+{% set villa_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
 {% set collection = page.collection() %}
-{% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
-{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
-{% set show_sidebar = header_var('show_sidebar', [page, blog])|defined(true)  %}
-{% set show_pagination = header_var('show_pagination', [page, blog])|defined(true) %}
+{% set villa = page.find(header_var('villa_url')|defined(theme_var('villa-page'))) %}
+{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, villa])|defined(true) %}
+{% set show_sidebar = header_var('show_sidebar', [page, villa])|defined(true)  %}
+{% set show_pagination = header_var('show_pagination', [page, villa])|defined(true) %}
 
 {% block stylesheets %}
     {% do assets.addCss('theme://css/bricklayer.css') %}
@@ -345,23 +345,23 @@ class __TwigTemplate_0b115e38fdde42d125fe360c57b1a5e5d75453d544c1a7f14a3058cc386
 
 
 {% block hero %}
-    {% include 'partials/hero.html.twig' with {id: 'blog-hero', content: page.content, hero_image: blog_image} %}
+    {% include 'partials/hero.html.twig' with {id: 'villa-hero', content: page.content, hero_image: villa_image} %}
 {% endblock %}
 
 {% block body %}
-    <section id=\"body-wrapper\" class=\"section blog-listing\">
+    <section id=\"body-wrapper\" class=\"section villa-listing\">
         <section class=\"container {{ grid_size }}\">
 
         {% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
             {% include 'partials/breadcrumbs.html.twig' %}
         {% endif %}
 
-        {% embed 'partials/layout.html.twig' with {blog: page} %}
+        {% embed 'partials/layout.html.twig' with {villa: page} %}
             {% block item %}
 
                 <div class=\"bricklayer\">
                 {% for child in collection %}
-                    {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+                    {% include 'partials/villa-list-item.html.twig' with {villa: page, page: child} %}
                 {% endfor %}
                 </div>
 

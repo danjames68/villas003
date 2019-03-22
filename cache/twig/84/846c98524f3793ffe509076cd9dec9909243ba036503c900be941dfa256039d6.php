@@ -460,6 +460,6 @@ class __TwigTemplate_856d2919ab3a0aaa9c114f97d54e38ce4d0f41435f631906000ce0b9586
 
 </body>
 </html>
-", "partials/base.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/base.html.twig");
     }
 }

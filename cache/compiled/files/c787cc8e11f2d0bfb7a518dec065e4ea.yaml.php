@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/blog-site/user/config/system.yaml',
-    'modified' => 1549544966,
+    'modified' => 1553291743,
     'data' => [
         'home' => [
-            'alias' => '/blog'
+            'alias' => '/villa'
         ],
         'pages' => [
             'theme' => 'quark',

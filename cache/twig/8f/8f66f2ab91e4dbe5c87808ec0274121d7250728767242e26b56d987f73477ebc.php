@@ -57,6 +57,6 @@ class __TwigTemplate_98f6856f67768886c95e61739708008d85547ae809602b47317d8d29208
         <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart-o pulse \"></i> by <a href=\"https://trilby.media\">Trilby Media</a>.</p>
     </section>
 </section>
-", "partials/footer.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/footer.html.twig");
+", "partials/footer.html.twig", "/Users/minidino/Sites/villa-site/user/themes/quark/templates/partials/footer.html.twig");
     }
 }
