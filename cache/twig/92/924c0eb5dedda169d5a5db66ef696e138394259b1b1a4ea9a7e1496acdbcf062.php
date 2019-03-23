@@ -46,7 +46,7 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
         <div class=\"card-title\">
         ";
         // line 14
-        $this->loadTemplate("partials/villa/title.html.twig", "partials/villa-list-item.html.twig", 14)->display(array_merge($context, ["title_level" => "h5"]));
+        $this->loadTemplate("partials/villa/menu.html.twig", "partials/villa-list-item.html.twig", 14)->display(array_merge($context, ["title_level" => "h5"]));
         // line 15
         echo "        </div>
     </div>
@@ -117,7 +117,7 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
             {% include 'partials/villa/taxonomy.html.twig' %}
     </div>
         <div class=\"card-title\">
-        {% include 'partials/villa/title.html.twig' with {title_level: 'h5'} %}
+        {% include 'partials/villa/menu.html.twig' with {title_level: 'h5'} %}
         </div>
     </div>
     <div class=\"card-body\">

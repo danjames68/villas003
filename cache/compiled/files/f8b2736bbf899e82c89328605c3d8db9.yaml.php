@@ -2,15 +2,15 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/luxury-villas/user/themes/quark/languages.yaml',
-    'modified' => 1553291746,
+    'modified' => 1553375626,
     'data' => [
         'en' => [
             'THEME_QUARK' => [
                 'villa' => [
                     'ITEM' => [
                         'CONTINUE_READING' => 'Continue reading...',
-                        'NEXT_POST' => 'Next Post',
-                        'PREV_POST' => 'Previous Post'
+                        'NEXT_POST' => 'Next Villa',
+                        'PREV_POST' => 'Previous Villa'
                     ]
                 ],
                 'SIDEBAR' => [

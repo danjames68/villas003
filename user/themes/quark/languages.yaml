@@ -3,8 +3,8 @@ en:
     villa:
       ITEM:
         CONTINUE_READING: Continue reading...
-        NEXT_POST: Next Post
-        PREV_POST: Previous Post
+        NEXT_POST: Next Villa
+        PREV_POST: Previous Villa
     SIDEBAR:
       SIMPLE_SEARCH:
         HEADLINE: Search

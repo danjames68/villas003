@@ -1,5 +1,6 @@
 ---
-title: 'Eremo'
+title: 'Eremo | A Luxury Villa in Tuscany near Arezzo for 18'
+menu: 'Eremo'
 date: '17:34 03/22/2018'
 taxonomy:
     category:
