@@ -93,7 +93,6 @@ class __TwigTemplate_133fe6db0b5c93dd6e2563f740a34d6ef2987976709efd12fc58b02ac5f
     </{{ title_level }}>
 {% else %}
     <{{ title_level }} class=\"p-name mt-1\"><a href=\"{{ page.url }}\" class=\"u-url\">{{ page.title }}</a></{{ title_level }}>
-{% endif %}
-", "partials/villa/title.html.twig", "/Users/minidino/Sites/blog-site/user/themes/quark/templates/partials/villa/title.html.twig");
+{% endif %}", "partials/villa/title.html.twig", "/Users/minidino/Sites/luxury-villas/user/themes/quark/templates/partials/villa/title.html.twig");
     }
 }

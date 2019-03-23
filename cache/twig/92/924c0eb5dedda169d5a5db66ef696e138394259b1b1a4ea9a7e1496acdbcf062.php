@@ -40,7 +40,7 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
         <div class=\"card-subtitle text-gray\">
             ";
         // line 11
-        $this->loadTemplate("partials/villa/date.html.twig", "partials/villa-list-item.html.twig", 11)->display($context);
+        $this->loadTemplate("partials/villa/taxonomy.html.twig", "partials/villa-list-item.html.twig", 11)->display($context);
         // line 12
         echo "    </div>
         <div class=\"card-title\">
@@ -114,7 +114,7 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
     {% endif %}
     <div class=\"card-header\">
         <div class=\"card-subtitle text-gray\">
-            {% include 'partials/villa/date.html.twig' %}
+            {% include 'partials/villa/taxonomy.html.twig' %}
     </div>
         <div class=\"card-title\">
         {% include 'partials/villa/title.html.twig' with {title_level: 'h5'} %}
