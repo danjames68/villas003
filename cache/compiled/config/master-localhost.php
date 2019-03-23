@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1553361887,
-    'checksum' => '5d313a76a6180460dd570a6b2afda4a5',
+    'timestamp' => 1553362040,
+    'checksum' => '0d4a89f77ac0ba80f1871cf49d6f84f9',
     'files' => [
         'user/config' => [
             'plugins/simplesearch' => [
@@ -27,7 +27,7 @@ return [
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
-                'modified' => 1553361885
+                'modified' => 1553362006
             ]
         ],
         'system/config' => [
@@ -798,13 +798,23 @@ return [
                 'grid-size' => 'grid-lg',
                 'header-fixed' => true,
                 'header-animated' => true,
-                'header-dark' => true,
+                'header-dark' => false,
                 'header-transparent' => false,
                 'sticky-footer' => true,
                 'villa-page' => '/villa',
                 'spectre' => [
                     'exp' => false,
                     'icons' => false
+                ],
+                'custom_logo' => [
+                    0 => [
+                        'name' => 'villas.svg'
+                    ]
+                ],
+                'custom_logo_mobile' => [
+                    0 => [
+                        'name' => 'villas.svg'
+                    ]
                 ]
             ]
         ]
