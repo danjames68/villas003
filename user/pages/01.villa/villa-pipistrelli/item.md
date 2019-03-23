@@ -8,13 +8,18 @@ taxonomy:
         - siena
         - tuscany
 hero_classes: 'text-dark title-h1h2 overlay-light hero-large parallax'
-hero_image: pool3.jpg
+hero_image: Pool3.jpg
 villa_url: /villa
 show_sidebar: false
 show_breadcrumbs: true
 show_pagination: true
 subtitle: 'Luxury Tuscan villa for 14'
 ---
+
+> I first visited this house in 1986. It was a ruin then and the owners have brought it back to life with taste and expertise. What hasn't changed is its magnificent position, high above the Merse valley.
+
+> <cite>Dan Wrightson</cite>
+
 
 This large stone house, carefully restored and furnished with exceptional taste and sensitivity to the comforts of modern travellers, began its life as a place of refuge. 
 
