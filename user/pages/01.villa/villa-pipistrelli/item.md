@@ -7,7 +7,7 @@ taxonomy:
     tag:
         - siena
         - tuscany
-hero_classes: 'text-dark title-h1h2 overlay-light hero-large parallax'
+hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 hero_image: Pool3.jpg
 villa_url: /villa
 show_sidebar: false

@@ -1,10 +1,10 @@
 ---
-title: Home
+title: Luxury Villas
 sitemap:
     changefreq: monthly
 body_classes: 'header-dark header-transparent'
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
-hero_image: road.jpg
+hero_image: san-michele-arezzo-jacuzzi.jpg
 custom: 'new thing'
 villa_url: /villa
 show_sidebar: true
@@ -24,5 +24,5 @@ feed:
 pagination: true
 ---
 
-# Invitation to Tuscany
-## Villas in Tuscany
+# Luxury Villas
+## Hand-picked in Italy
