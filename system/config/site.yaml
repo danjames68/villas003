@@ -1,14 +1,14 @@
-title: Grav                                 # Name of the site
+title: Luxury Villas in Italy               # Name of the site
 default_lang: en                            # Default language for site (potentially used by theme)
 
 author:
-  name: John Appleseed                      # Default author name
-  email: 'john@example.com'                 # Default author email
+  name: Daniel Wrightson                    # Default author name
+  email: 'dan@invitationto.com'             # Default author email
 
-taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
+taxonomies: [category,tag,type]             # Arbitrary list of taxonomy types
 
 metadata:
-  description: 'My Grav Site'               # Site description
+  description: 'Luxury Villas in Italy'     # Site description
 
 summary:
   enabled: true                             # enable or disable summary of page

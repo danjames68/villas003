@@ -2,20 +2,21 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/luxury-villas/system/config/site.yaml',
-    'modified' => 1553291743,
+    'modified' => 1553377660,
     'data' => [
-        'title' => 'Grav',
+        'title' => 'Luxury Villas in Italy',
         'default_lang' => 'en',
         'author' => [
-            'name' => 'John Appleseed',
-            'email' => 'john@example.com'
+            'name' => 'Daniel Wrightson',
+            'email' => 'dan@invitationto.com'
         ],
         'taxonomies' => [
             0 => 'category',
-            1 => 'tag'
+            1 => 'tag',
+            2 => 'type'
         ],
         'metadata' => [
-            'description' => 'My Grav Site'
+            'description' => 'Luxury Villas in Italy'
         ],
         'summary' => [
             'enabled' => true,

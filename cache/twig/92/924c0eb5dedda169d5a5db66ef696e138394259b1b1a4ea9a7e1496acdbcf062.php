@@ -38,11 +38,8 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
         // line 9
         echo "    <div class=\"card-header\">
         <div class=\"card-subtitle text-gray\">
-            ";
-        // line 11
-        $this->loadTemplate("partials/villa/taxonomy.html.twig", "partials/villa-list-item.html.twig", 11)->display($context);
-        // line 12
-        echo "    </div>
+            
+    </div>
         <div class=\"card-title\">
         ";
         // line 14
@@ -91,7 +88,7 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
 
     public function getDebugInfo()
     {
-        return array (  76 => 26,  74 => 25,  70 => 23,  64 => 21,  58 => 19,  56 => 18,  51 => 15,  49 => 14,  45 => 12,  43 => 11,  39 => 9,  31 => 6,  28 => 5,  25 => 4,  23 => 3,  19 => 1,);
+        return array (  73 => 26,  71 => 25,  67 => 23,  61 => 21,  55 => 19,  53 => 18,  48 => 15,  46 => 14,  39 => 9,  31 => 6,  28 => 5,  25 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -114,7 +111,7 @@ class __TwigTemplate_a58c758b34eb9714176662590535b2b4407bd5f3dd438e96234cda1d7dd
     {% endif %}
     <div class=\"card-header\">
         <div class=\"card-subtitle text-gray\">
-            {% include 'partials/villa/taxonomy.html.twig' %}
+            
     </div>
         <div class=\"card-title\">
         {% include 'partials/villa/menu.html.twig' with {title_level: 'h5'} %}
