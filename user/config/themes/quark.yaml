@@ -1,1 +1,16 @@
-grid-size: grid-xl
+enabled: true
+production-mode: false
+grid-size: grid-lg
+header-fixed: true
+header-animated: true
+header-dark: false
+header-transparent: false
+sticky-footer: true
+villa-page: '/villa'
+spectre:
+  exp: false
+  icons: false
+custom_logo:
+    - name: 'villas.svg'
+custom_logo_mobile:
+    - name: 'villas.svg'    
