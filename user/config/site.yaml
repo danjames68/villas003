@@ -1,13 +1,13 @@
-title: Grav
+title: Villas in Italy
 author:
-  name: Joe villags
-  email: 'joe@test.com'
+  name: Daniel Wrightson
+  email: 'dan@casole.com'
 villa:
   route: ''
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'Hand picked luxury villas in Italy'
 
-taxonomies: [category,tag,month]
+taxonomies: [category,tag,month,type]
 redirects:
     /changelog: /villa/the-urban-jungle
 routes:

@@ -50,7 +50,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
             ob_start();
             // line 12
             echo "            <h1>";
-            echo $this->getAttribute(($context["page"] ?? null), "title", []);
+            echo $this->getAttribute(($context["page"] ?? null), "menu", []);
             echo "</h1>
             <h2>";
             // line 13
@@ -94,7 +94,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
         echo "
         ";
         // line 29
-        $this->loadTemplate("item.html.twig", "item.html.twig", 29, "1076937127")->display($context);
+        $this->loadTemplate("item.html.twig", "item.html.twig", 29, "1135994302")->display($context);
         // line 37
         echo "
     </section>
@@ -138,7 +138,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
     {% if hero_image_name %}
         {% set hero_image = page.media[hero_image_name] %}
         {% set content %}
-            <h1>{{ page.title }}</h1>
+            <h1>{{ page.menu }}</h1>
             <h2>{{ page.header.subtitle }}</h2>
             {% include 'partials/villa/taxonomy.html.twig' %}
         {% endset %}
@@ -173,7 +173,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
 
 
 /* item.html.twig */
-class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb49357d_1076937127 extends Twig_Template
+class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb49357d_1135994302 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -253,7 +253,7 @@ class __TwigTemplate_a51990fcf1d851a54c1da302318392b427ca0748d46d55d6393cfddcdb4
     {% if hero_image_name %}
         {% set hero_image = page.media[hero_image_name] %}
         {% set content %}
-            <h1>{{ page.title }}</h1>
+            <h1>{{ page.menu }}</h1>
             <h2>{{ page.header.subtitle }}</h2>
             {% include 'partials/villa/taxonomy.html.twig' %}
         {% endset %}

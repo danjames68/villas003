@@ -8,6 +8,10 @@ taxonomy:
     tag:
         - arezzo
         - tuscany
+    type:
+        - full service villa
+        - air conditioning
+        - private chef
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 hero_image: eremo-9-bedroom-luxury.jpg
 villa_url: /villa

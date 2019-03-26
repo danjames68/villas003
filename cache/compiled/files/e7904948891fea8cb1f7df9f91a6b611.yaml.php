@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/luxury-villas/user/config/system.yaml',
-    'modified' => 1553364264,
+    'modified' => 1553460214,
     'data' => [
         'home' => [
             'alias' => '/villa'

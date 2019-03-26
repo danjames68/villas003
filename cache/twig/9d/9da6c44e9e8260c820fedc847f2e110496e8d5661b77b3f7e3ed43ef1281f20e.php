@@ -27,7 +27,7 @@ class __TwigTemplate_15b0d7986543910b8092b1b844b467ef389016c6aa94df8028e7e87dacb
             echo "    <div class=\"content-title text-center\">
         ";
             // line 7
-            $this->loadTemplate("partials/villa/title.html.twig", "partials/villa-item.html.twig", 7)->display(array_merge($context, ["title_level" => "h2"]));
+            $this->loadTemplate("partials/villa/menu.html.twig", "partials/villa-item.html.twig", 7)->display(array_merge($context, ["title_level" => "h2"]));
             // line 8
             echo "        ";
             if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "subtitle", [])) {
@@ -133,7 +133,7 @@ class __TwigTemplate_15b0d7986543910b8092b1b844b467ef389016c6aa94df8028e7e87dacb
 
 {% if not hero_image_name %}
     <div class=\"content-title text-center\">
-        {% include 'partials/villa/title.html.twig' with {title_level: 'h2'} %}
+        {% include 'partials/villa/menu.html.twig' with {title_level: 'h2'} %}
         {% if page.header.subtitle %}
         <h3 >{{ page.header.subtitle }}</h3>
         {% endif %}

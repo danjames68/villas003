@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1553377666,
-    'checksum' => 'f6a9b0b1ea2cd6bb0a01dd70fcfafc30',
+    'timestamp' => 1553460220,
+    'checksum' => 'a5ddeaa9d17c4f8121ac972047e7a16b',
     'files' => [
         'user/config' => [
             'plugins/simplesearch' => [
@@ -19,11 +19,11 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1553291743
+                'modified' => 1553377802
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1553364264
+                'modified' => 1553460214
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
@@ -578,19 +578,20 @@ return [
             'salt' => 'nCXlhMu03UtYkV'
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Villas in Italy',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe villags',
-                'email' => 'joe@test.com'
+                'name' => 'Daniel Wrightson',
+                'email' => 'dan@casole.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag',
-                2 => 'month'
+                2 => 'month',
+                3 => 'type'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Hand picked luxury villas in Italy'
             ],
             'summary' => [
                 'enabled' => true,

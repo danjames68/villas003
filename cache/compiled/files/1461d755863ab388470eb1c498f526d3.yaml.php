@@ -2,23 +2,24 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/luxury-villas/user/config/site.yaml',
-    'modified' => 1553291743,
+    'modified' => 1553377802,
     'data' => [
-        'title' => 'Grav',
+        'title' => 'Villas in Italy',
         'author' => [
-            'name' => 'Joe villags',
-            'email' => 'joe@test.com'
+            'name' => 'Daniel Wrightson',
+            'email' => 'dan@casole.com'
         ],
         'villa' => [
             'route' => ''
         ],
         'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+            'description' => 'Hand picked luxury villas in Italy'
         ],
         'taxonomies' => [
             0 => 'category',
             1 => 'tag',
-            2 => 'month'
+            2 => 'month',
+            3 => 'type'
         ],
         'redirects' => [
             '/changelog' => '/villa/the-urban-jungle'
