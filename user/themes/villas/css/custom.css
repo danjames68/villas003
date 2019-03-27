@@ -1,0 +1,81 @@
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,
+s,samp,small,strike,strong,sub,sup,tt,var,b,i,center,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,audio,canvas,details,figcaption,figure,footer,header,hgroup,
+mark,menu,meter,nav,output,progress,section,summary,time,video{ border:0; outline:0;
+    font-size:100%; vertical-align:baseline; background:transparent; margin:0;padding:0; }
+article,aside,dialog,figure,footer,header,hgroup,nav,section,blockquote{ display:block; }
+nav ul{ list-style:none; }
+ol{ list-style:decimal; }
+ul{ list-style:disc; }
+ul ul{ list-style:circle; }
+blockquote,q{ quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after{ content:none; }
+ins{ text-decoration:underline; }
+del{ text-decoration:line-through; }
+mark{ background:none; }
+abbr[title],dfn[title]{ border-bottom:1px dotted #000; cursor:help; }
+table{ border-collapse:collapse;border-spacing:0; }
+hr{ display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0;}
+input[type=submit],input[type=button],button{ margin:0; padding:0;}
+input,select,a img{ vertical-align:middle; }
+
+b, strong{ font-weight: bold; }
+i, em{ font-style: italic; }
+
+
+
+.gallery-item .gallery-icon { margin-right: 10px; }
+i{ margin-right: 5px; }
+a{ text-decoration: none; }
+p{ margin-bottom: 20px; }
+ul, ol{ margin-bottom: 20px; margin-left: 30px; }
+body { line-height: 1.8; font-family: Arial, Helvetica, sans-serif; overflow-y: scroll;
+    -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.3; margin-bottom: 18px; font-weight: 400; }
+
+/*----------------------------------------------------------------------*/
+/*---------------             THEME STYLE             ------------------*/
+/*----------------------------------------------------------------------*/
+
+/*--- testimonial ---*/
+.gdlr-testimonial-item.carousel .testimonial-item{ margin: 0px 15px; }
+.gdlr-testimonial-item.carousel .testimonial-item:first-child{ margin-left: 0px; }
+
+.gdlr-testimonial-item.round-style .testimonial-item{ padding-bottom: 35px; }
+.gdlr-testimonial-item.round-style .testimonial-item-inner{ padding: 30px 30px 60px; position: relative;
+    -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.gdlr-testimonial-item.round-style .testimonial-info{ margin-top: 15px; }
+.gdlr-testimonial-item.round-style .testimonial-author{ font-weight: bold; }
+.gdlr-testimonial-item.round-style .testimonial-author-image{ width: 65px; height: 65px;
+    position: absolute; left: 50%; bottom: -35px; margin-left: -35px;
+    border-width: 3px; border-style: solid; overflow: hidden;
+    -moz-border-radius: 35px; -webkit-border-radius: 35px; border-radius: 35px; }
+
+.gdlr-testimonial-item.box-style .testimonial-item{ padding-bottom: 75px; }
+.gdlr-testimonial-item.box-style .testimonial-item-inner{ padding: 25px 30px; position: relative; }
+.gdlr-testimonial-item.box-style .testimonial-item-inner:after{ content: ''; height: 0px; width: 0px;
+    border: 12px solid transparent; position: absolute; right: 0px; bottom: -24px; }
+.gdlr-testimonial-item.box-style .testimonial-info{ margin-top: 15px; text-align: right; }
+.gdlr-testimonial-item.box-style .testimonial-author{ font-weight: bold; }
+.gdlr-testimonial-item.box-style .testimonial-author-image{ width: 65px; height: 65px;
+    position: absolute; right: 34px; bottom: -75px; }
+
+.gdlr-testimonial-item.plain-style .testimonial-item { text-align: center; font-size: 16px; }
+.gdlr-testimonial-item.plain-style .testimonial-item-inner{ padding: 25px 30px; position: relative; }
+.gdlr-testimonial-item.plain-style .testimonial-item-inner:after{ content: ''; height: 0px; width: 0px;
+    border: 12px solid transparent; position: absolute; right: 0px; bottom: -24px; }
+.gdlr-testimonial-item.plain-style .testimonial-info{ margin-top: 15px; font-size: 17px; }
+.gdlr-testimonial-item.plain-style .testimonial-author:before { content: "- "; display: inline; }
+.gdlr-testimonial-item.plain-style.large{ font-size: 20px; }
+
+/*--- block quote ---*/
+blockquote{ font-size: 25px; font-style: italic; margin-bottom: 35px;
+    line-height: 1.4; padding: 10px 20px 0px 90px; border-top-width: 0px; border-bottom-width: 0px;
+    background-size: 37px 35px; background-position: 18px 15px; background-image: url('../images/quote.png');
+    letter-spacing: 1px; background-repeat: no-repeat; }
+blockquote.gdlr-align-left{ width: 33%; float: left; margin-right: 20px; margin-bottom: 20px; }
+blockquote.gdlr-align-right{ width: 33%; float: right; margin-right: 20px; margin-bottom: 20px; }

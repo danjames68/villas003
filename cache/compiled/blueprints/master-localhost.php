@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1553368875,
-    'checksum' => '3ba1c3eea47246072c877720a34b0d9b',
+    'timestamp' => 1553710780,
+    'checksum' => '9c99529f3bdb497950c00d31799e5175',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -54,6 +54,10 @@ return [
             'plugins/social-seo-metatags' => [
                 'file' => 'user/plugins/social-seo-metatags/blueprints.yaml',
                 'modified' => 1553364263
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/blueprints.yaml',
+                'modified' => 1553710739
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/blueprints.yaml',
@@ -2896,6 +2900,28 @@ return [
                 'name' => 'plugins.social-seo-metatags.social_pages_types',
                 'validation' => 'strict'
             ],
+            'plugins.devtools' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.devtools.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.devtools.enabled',
+                'validation' => 'strict'
+            ],
             'plugins.feed' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -3551,6 +3577,9 @@ return [
                         ]
                     ],
                     'facebook' => 'plugins.social-seo-metatags.facebook'
+                ],
+                'devtools' => [
+                    'enabled' => 'plugins.devtools.enabled'
                 ],
                 'feed' => [
                     'enabled' => 'plugins.feed.enabled',

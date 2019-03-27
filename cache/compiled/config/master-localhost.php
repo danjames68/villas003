@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1553460220,
-    'checksum' => 'a5ddeaa9d17c4f8121ac972047e7a16b',
+    'timestamp' => 1553710890,
+    'checksum' => '1e7a0ee29cafb9e418cef20523190197',
     'files' => [
         'user/config' => [
             'plugins/simplesearch' => [
@@ -23,7 +23,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1553460214
+                'modified' => 1553710879
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
@@ -80,6 +80,10 @@ return [
             'plugins/social-seo-metatags' => [
                 'file' => 'user/plugins/social-seo-metatags/social-seo-metatags.yaml',
                 'modified' => 1553364263
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/devtools.yaml',
+                'modified' => 1553710739
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/feed.yaml',
@@ -230,6 +234,9 @@ return [
                         ]
                     ]
                 ]
+            ],
+            'devtools' => [
+                'enabled' => true
             ],
             'feed' => [
                 'enabled' => true,
@@ -662,7 +669,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'quark',
+                'theme' => 'villas',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'

@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/minidino/Sites/luxury-villas/user/config/system.yaml',
-    'modified' => 1553460214,
+    'modified' => 1553710879,
     'data' => [
         'home' => [
             'alias' => '/villa'
         ],
         'pages' => [
-            'theme' => 'quark',
+            'theme' => 'villas',
             'process' => [
                 'markdown' => true,
                 'twig' => false

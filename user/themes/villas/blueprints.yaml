@@ -1,8 +1,13 @@
 name: Villas
-version: 1.0.0
-description: "Extending Quark"
-icon: crosshairs
+version: 0.1.0
+description: Villa listing plus blog and aboutus pages
+icon: rebel
 author:
-   name: Team Grav
-   email: devs@getgrav.org
-   url: http://getgrav.org
+  name: danjames68
+  email: danjames68@me.com
+homepage: https://github.com/danjames68/grav-theme-villas
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/danjames68/grav-theme-villas/issues
+readme: https://github.com/danjames68/grav-theme-villas/blob/develop/README.md
+license: MIT
